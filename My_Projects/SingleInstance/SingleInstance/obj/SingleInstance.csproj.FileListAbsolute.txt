@@ -1,0 +1,8 @@
+L:\Projects\SingleInstance\SingleInstance\obj\Debug\ResolveAssemblyReference.cache
+L:\Projects\SingleInstance\SingleInstance\obj\Debug\SingleInstance.Properties.Resources.resources
+L:\Projects\SingleInstance\SingleInstance\obj\Debug\SingleInstance.csproj.GenerateResource.Cache
+L:\Projects\SingleInstance\SingleInstance\bin\Debug\SingleInstance.exe
+L:\Projects\SingleInstance\SingleInstance\bin\Debug\SingleInstance.pdb
+L:\Projects\SingleInstance\SingleInstance\obj\Debug\SingleInstance.exe
+L:\Projects\SingleInstance\SingleInstance\obj\Debug\SingleInstance.pdb
+L:\Projects\SingleInstance\SingleInstance\obj\Debug\SingleInstance.Form1.resources

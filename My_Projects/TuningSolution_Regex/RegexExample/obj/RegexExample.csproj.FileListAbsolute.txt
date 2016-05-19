@@ -1,0 +1,10 @@
+D:\Visual Studio 2005 Projects\TuningSolution_Regex\RegexExample\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\TuningSolution_Regex\RegexExample\obj\Debug\RegexExample.Properties.Resources.resources
+D:\Visual Studio 2005 Projects\TuningSolution_Regex\RegexExample\obj\Debug\RegexExample.csproj.GenerateResource.Cache
+D:\Visual Studio 2005 Projects\TuningSolution_Regex\RegexExample\bin\Debug\RegexExample.exe
+D:\Visual Studio 2005 Projects\TuningSolution_Regex\RegexExample\bin\Debug\RegexExample.pdb
+D:\Visual Studio 2005 Projects\TuningSolution_Regex\RegexExample\obj\Debug\RegexExample.exe
+D:\Visual Studio 2005 Projects\TuningSolution_Regex\RegexExample\obj\Debug\RegexExample.pdb
+D:\Visual Studio 2005 Projects\TuningSolution_Regex\RegexExample\obj\Debug\RegexExample.frmValidataPath.resources
+D:\My_Projects\TuningSolution_Regex\RegexExample\obj\Debug\RegexExample.exe
+D:\My_Projects\TuningSolution_Regex\RegexExample\obj\Debug\RegexExample.pdb

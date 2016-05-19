@@ -1,0 +1,6 @@
+D:\My_Projects\AJMSClient\AJMSClient\bin\Debug\AJMSClient.exe.config
+D:\My_Projects\AJMSClient\AJMSClient\bin\Debug\AJMSClient.exe
+D:\My_Projects\AJMSClient\AJMSClient\bin\Debug\AJMSClient.pdb
+D:\My_Projects\AJMSClient\AJMSClient\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\AJMSClient\AJMSClient\obj\Debug\AJMSClient.exe
+D:\My_Projects\AJMSClient\AJMSClient\obj\Debug\AJMSClient.pdb

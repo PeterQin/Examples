@@ -1,0 +1,12 @@
+Microsoft.SqlServer.Management.Trace.SqlTraceException: Failed to initialize object as reader. ---> System.IO.FileLoadException: A dynamic link library (DLL) initialization routine failed. (Exception from HRESULT: 0x8007045A)
+   at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Microsoft.SqlServer.Management.Trace.TraceUtils.CreateInstance(String assemblyRelativePath, String objectClass)
+   at Microsoft.SqlServer.Management.Trace.TraceServer.InitializeAsReader(ConnectionInfoBase serverConnInfo, String profileFileName)
+   --- End of inner exception stack trace ---
+   at Microsoft.SqlServer.Management.Trace.TraceServer.InitializeAsReader(ConnectionInfoBase serverConnInfo, String profileFileName)
+   at Quest.Tuning.TestProfiler.Form1.RunTrace() in C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TestProfiler\Quest.Tuning.TestProfiler\Form1.cs:line 38
+   at Quest.Tuning.TestProfiler.Form1..ctor() in C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TestProfiler\Quest.Tuning.TestProfiler\Form1.cs:line 21

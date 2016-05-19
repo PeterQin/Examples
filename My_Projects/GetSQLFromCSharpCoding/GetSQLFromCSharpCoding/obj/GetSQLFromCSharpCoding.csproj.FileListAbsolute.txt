@@ -1,0 +1,8 @@
+D:\My_Projects\GetSQLFromCSharpCoding\GetSQLFromCSharpCoding\bin\Debug\GetSQLFromCSharpCoding.exe
+D:\My_Projects\GetSQLFromCSharpCoding\GetSQLFromCSharpCoding\bin\Debug\GetSQLFromCSharpCoding.pdb
+D:\My_Projects\GetSQLFromCSharpCoding\GetSQLFromCSharpCoding\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\GetSQLFromCSharpCoding\GetSQLFromCSharpCoding\obj\Debug\GetSQLFromCSharpCoding.Form1.resources
+D:\My_Projects\GetSQLFromCSharpCoding\GetSQLFromCSharpCoding\obj\Debug\GetSQLFromCSharpCoding.Properties.Resources.resources
+D:\My_Projects\GetSQLFromCSharpCoding\GetSQLFromCSharpCoding\obj\Debug\GetSQLFromCSharpCoding.csproj.GenerateResource.Cache
+D:\My_Projects\GetSQLFromCSharpCoding\GetSQLFromCSharpCoding\obj\Debug\GetSQLFromCSharpCoding.exe
+D:\My_Projects\GetSQLFromCSharpCoding\GetSQLFromCSharpCoding\obj\Debug\GetSQLFromCSharpCoding.pdb

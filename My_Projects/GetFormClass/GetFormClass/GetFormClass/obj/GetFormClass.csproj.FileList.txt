@@ -1,0 +1,8 @@
+bin\Debug\GetFormClass.exe
+bin\Debug\GetFormClass.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GetFormClass.Form1.resources
+obj\Debug\GetFormClass.Properties.Resources.resources
+obj\Debug\GetFormClass.csproj.GenerateResource.Cache
+obj\Debug\GetFormClass.exe
+obj\Debug\GetFormClass.pdb

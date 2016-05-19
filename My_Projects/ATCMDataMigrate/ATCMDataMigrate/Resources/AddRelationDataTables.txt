@@ -1,0 +1,16 @@
+USE [{0}]  
+DECLARE ATCM_DataTable_Names_Cursor CURSOR 
+FOR 
+select distinct(dt.DataTableName) from DataTable as dt join INFORMATION_SCHEMA.TABLES as alltable
+on alltable.TABLE_NAME = dt.DataTableName order by dt.DataTableName;
+OPEN ATCM_DataTable_Names_Cursor 
+DECLARE @tablename nvarchar(255)
+FETCH NEXT FROM ATCM_DataTable_Names_Cursor INTO @tablename 
+WHILE (@@FETCH_STATUS = 0) 
+BEGIN 
+ EXEC ('ALTER TABLE ['+@tablename +'] ADD CONSTRAINT UQ_'+ @tablename +' UNIQUE NONCLUSTERED (DataID, ProjectID), primary key (DataID, ProjectID)')
+ EXEC ('ALTER TABLE ['+@tablename+'] ADD CONSTRAINT FK_Projects'+@tablename+'  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID)')
+ FETCH NEXT FROM ATCM_DataTable_Names_Cursor INTO @tablename 
+END 
+CLOSE ATCM_DataTable_Names_Cursor 
+DEALLOCATE ATCM_DataTable_Names_Cursor

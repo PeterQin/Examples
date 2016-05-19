@@ -1,0 +1,8 @@
+D:\My_Projects\sqlOnDelphiConvert\sqlOnDelphiConvert\bin\Debug\sqlOnDelphiConvert.exe
+D:\My_Projects\sqlOnDelphiConvert\sqlOnDelphiConvert\bin\Debug\sqlOnDelphiConvert.pdb
+D:\My_Projects\sqlOnDelphiConvert\sqlOnDelphiConvert\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\sqlOnDelphiConvert\sqlOnDelphiConvert\obj\Debug\sqlOnDelphiConvert.Form1.resources
+D:\My_Projects\sqlOnDelphiConvert\sqlOnDelphiConvert\obj\Debug\sqlOnDelphiConvert.Properties.Resources.resources
+D:\My_Projects\sqlOnDelphiConvert\sqlOnDelphiConvert\obj\Debug\sqlOnDelphiConvert.csproj.GenerateResource.Cache
+D:\My_Projects\sqlOnDelphiConvert\sqlOnDelphiConvert\obj\Debug\sqlOnDelphiConvert.exe
+D:\My_Projects\sqlOnDelphiConvert\sqlOnDelphiConvert\obj\Debug\sqlOnDelphiConvert.pdb

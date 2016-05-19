@@ -1,0 +1,10 @@
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\bin\Debug\Quest.Tuning.ConsoleService.exe
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\bin\Debug\Quest.Tuning.ConsoleService.pdb
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\bin\Debug\FileTransferCommon.dll
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\bin\Debug\FileTransferService.dll
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\bin\Debug\FileTransferService.pdb
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\bin\Debug\FileTransferCommon.pdb
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\obj\Debug\Quest.Tuning.ConsoleService.exe
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\obj\Debug\Quest.Tuning.ConsoleService.pdb
+D:\My_Projects\FileTransferService_Solution\Quest.Tuning.ConsoleService\bin\Debug\Quest.Tuning.ConsoleService.exe.config

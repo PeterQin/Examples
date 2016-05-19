@@ -1,0 +1,15 @@
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.Properties.Resources.resources
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.csproj.GenerateResource.Cache
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.exe.licenses
+D:\My_Projects\DPITestDX\DPITestDX\bin\Debug\DPITestDX.exe
+D:\My_Projects\DPITestDX\DPITestDX\bin\Debug\DPITestDX.pdb
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.exe
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.pdb
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.XtraUserControl1.resources
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.XtraUserControl2.resources
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.frmDPITest.resources
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.frmMargin.resources
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.XtraUserControl3.resources
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.DevExpressHyperLinkEdit.resources
+D:\My_Projects\DPITestDX\DPITestDX\obj\Debug\DPITestDX.XtraUserControl4.resources

@@ -1,0 +1,5 @@
+D:\My_Projects\FileTransferService_Solution\FileTransferCommon\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\FileTransferService_Solution\FileTransferCommon\bin\Debug\Quest.Tuning.FileTransferCommon.dll
+D:\My_Projects\FileTransferService_Solution\FileTransferCommon\bin\Debug\Quest.Tuning.FileTransferCommon.pdb
+D:\My_Projects\FileTransferService_Solution\FileTransferCommon\obj\Debug\Quest.Tuning.FileTransferCommon.dll
+D:\My_Projects\FileTransferService_Solution\FileTransferCommon\obj\Debug\Quest.Tuning.FileTransferCommon.pdb

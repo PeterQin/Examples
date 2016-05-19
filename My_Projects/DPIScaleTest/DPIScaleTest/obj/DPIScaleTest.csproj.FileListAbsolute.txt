@@ -1,0 +1,13 @@
+D:\My_Projects\DPIScaleTest\DPIScaleTest\bin\Debug\DPIScaleTest.exe
+D:\My_Projects\DPIScaleTest\DPIScaleTest\bin\Debug\DPIScaleTest.pdb
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.Properties.Resources.resources
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.csproj.GenerateResource.Cache
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.exe
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.pdb
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.exe.licenses
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.XtraUserControl1.resources
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.frmXtraForm1.resources
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.frmDPI.resources
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.frmFont.resources
+D:\My_Projects\DPIScaleTest\DPIScaleTest\obj\Debug\DPIScaleTest.XtraForm1.resources

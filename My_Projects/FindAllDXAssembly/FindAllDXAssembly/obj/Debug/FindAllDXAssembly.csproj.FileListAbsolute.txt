@@ -1,0 +1,12 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindAllDXAssembly\FindAllDXAssembly\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindAllDXAssembly\FindAllDXAssembly\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindAllDXAssembly\FindAllDXAssembly\obj\Debug\WindowsFormsApplication1.pdb
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\bin\Debug\WindowsFormsApplication1.exe.config
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\obj\Debug\WindowsFormsApplication1.exe
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\obj\Debug\WindowsFormsApplication1.pdb
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\bin\Debug\WindowsFormsApplication1.exe
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\bin\Debug\WindowsFormsApplication1.pdb
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\obj\Debug\FindAllDXAssembly.csprojResolveAssemblyReference.cache
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\My_Projects\FindAllDXAssembly\FindAllDXAssembly\obj\Debug\FindAllDXAssembly.csproj.GenerateResource.Cache

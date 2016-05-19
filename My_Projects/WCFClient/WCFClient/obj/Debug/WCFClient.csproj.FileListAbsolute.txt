@@ -1,0 +1,9 @@
+D:\My_Projects\WCFClient\WCFClient\bin\Debug\WCFClient.exe.config
+D:\My_Projects\WCFClient\WCFClient\obj\Debug\WCFClient.exe
+D:\My_Projects\WCFClient\WCFClient\obj\Debug\WCFClient.pdb
+D:\My_Projects\WCFClient\WCFClient\bin\Debug\WCFClient.exe
+D:\My_Projects\WCFClient\WCFClient\bin\Debug\WCFClient.pdb
+D:\My_Projects\WCFClient\WCFClient\obj\Debug\WCFClient.csprojResolveAssemblyReference.cache
+D:\My_Projects\WCFClient\WCFClient\obj\Debug\WCFClient.FormMain.resources
+D:\My_Projects\WCFClient\WCFClient\obj\Debug\WCFClient.Properties.Resources.resources
+D:\My_Projects\WCFClient\WCFClient\obj\Debug\WCFClient.csproj.GenerateResource.Cache

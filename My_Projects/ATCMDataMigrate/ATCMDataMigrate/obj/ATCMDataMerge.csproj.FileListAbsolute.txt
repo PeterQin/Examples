@@ -1,0 +1,10 @@
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\bin\Debug\ATCMDataMerge.exe
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\bin\Debug\ATCMDataMerge.pdb
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\obj\Debug\ATCMDataMigrate.frmMerge.resources
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\obj\Debug\ATCMDataMigrate.Properties.Resources.resources
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\obj\Debug\ATCMDataMigrate.rcMigrate.resources
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\obj\Debug\ATCMDataMerge.csproj.GenerateResource.Cache
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\obj\Debug\ATCMDataMerge.exe.licenses
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\obj\Debug\ATCMDataMerge.exe
+D:\My_Projects\ATCMDataMigrate\ATCMDataMigrate\obj\Debug\ATCMDataMerge.pdb

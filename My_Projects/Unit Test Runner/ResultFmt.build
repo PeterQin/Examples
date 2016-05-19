@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<project name="FormatNunitResult">
+  <nunit2report todir="\\zhuflsw01\WORKGROUP\RND\SQL Tuning\Builds\Quest SQL Optimizer for SQL Server\7.5\UnitTestResults7.5.0.1100" out="Quest.Tuning.SQLSvr.SQLLab.Test.dll-TestResult.html">
+    <fileset>
+      <includes name="C:\Documents and Settings\svc-ZHU.AJMS\Local Settings\Temp\tmp1F1.xml"/>
+    </fileset>
+  </nunit2report>
+</project>

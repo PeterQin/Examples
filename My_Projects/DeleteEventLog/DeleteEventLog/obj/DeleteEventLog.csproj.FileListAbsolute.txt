@@ -1,0 +1,5 @@
+D:\My_Projects\DeleteEventLog\DeleteEventLog\bin\Debug\DeleteEventLog.exe
+D:\My_Projects\DeleteEventLog\DeleteEventLog\bin\Debug\DeleteEventLog.pdb
+D:\My_Projects\DeleteEventLog\DeleteEventLog\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\DeleteEventLog\DeleteEventLog\obj\Debug\DeleteEventLog.exe
+D:\My_Projects\DeleteEventLog\DeleteEventLog\obj\Debug\DeleteEventLog.pdb

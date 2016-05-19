@@ -1,0 +1,28 @@
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\bin\Debug\Tasks.xml
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\bin\Debug\Quest.Tunning.AddEditTask.exe
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\bin\Debug\Quest.Tunning.AddEditTask.pdb
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.frmAddEditTask.resources
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.Properties.Resources.resources
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.csproj.GenerateResource.Cache
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.exe.licenses
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.exe
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.pdb
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.rcStatus.resources
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.rcLabelText.resources
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.ucSelectFile.resources
+D:\Visual Studio 2005\Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.ucSelectApplication.resources
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.exe
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.pdb
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\bin\Debug\Tasks.xml
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\bin\Debug\Quest.Tunning.AddEditTask.exe
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\bin\Debug\Quest.Tunning.AddEditTask.pdb
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.frmAddEditTask.resources
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.Properties.Resources.resources
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.rcLabelText.resources
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.rcStatus.resources
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.ucSelectApplication.resources
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.ucSelectFile.resources
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.csproj.GenerateResource.Cache
+D:\Visual Studio 2005 Projects\Quest.Tunning.AddEditTask\Quest.Tunning.AddEditTask\obj\Debug\Quest.Tunning.AddEditTask.exe.licenses

@@ -1,0 +1,15 @@
+﻿<Tasks>
+  <!--<CopyFolder>
+    <Source><![CDATA[\\zhuflsw01\home\pqin\Temp]]></Source>
+    <Destination><![CDATA[C:\Temp]]></Destination>
+  </CopyFolder>
+  <CopyFile>
+    <Source><![CDATA[\\zhuflsw01\home\pqin\Temp\SQL for test.txt]]></Source>
+    <Destination><![CDATA[C:\SQL for test.txt]]></Destination>
+  </CopyFile>-->
+  <RunProgram>
+    <FileName><![CDATA[C:\WINDOWS\system32\notepad.exe]]></FileName>
+    <Arguments><![CDATA[]]></Arguments>
+  </RunProgram>
+</Tasks>
+

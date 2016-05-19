@@ -1,0 +1,15 @@
+L:\Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\ResolveAssemblyReference.cache
+L:\Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.ucXMLViewer.resources
+L:\Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.csproj.GenerateResource.Cache
+L:\Projects\TuningSolution_XMLViewer\XMLViewer\bin\Debug\XMLViewer.dll
+L:\Projects\TuningSolution_XMLViewer\XMLViewer\bin\Debug\XMLViewer.pdb
+L:\Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.dll
+L:\Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.pdb
+L:\Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.Resource1.resources
+D:\My_Projects\TuningSolution_XMLViewer\XMLViewer\bin\Debug\XMLViewer.dll
+D:\My_Projects\TuningSolution_XMLViewer\XMLViewer\bin\Debug\XMLViewer.pdb
+D:\My_Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.ucXMLViewer.resources
+D:\My_Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.csproj.GenerateResource.Cache
+D:\My_Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.dll
+D:\My_Projects\TuningSolution_XMLViewer\XMLViewer\obj\Debug\XMLViewer.pdb

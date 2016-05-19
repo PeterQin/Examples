@@ -1,0 +1,24 @@
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\bin\Debug\Quest.Tuning.GridTest.exe
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\bin\Debug\Quest.Tuning.GridTest.pdb
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.frmGrid.resources
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.Properties.Resources.resources
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.csproj.GenerateResource.Cache
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.exe.licenses
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.exe
+D:\Visual Studio 2005 Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.pdb
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.exe
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.pdb
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\bin\Debug\Quest.Tuning.GridTest.exe
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\bin\Debug\Quest.Tuning.GridTest.pdb
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.frmGrid.resources
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.Properties.Resources.resources
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.csproj.GenerateResource.Cache
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.exe.licenses
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.frmGrid2.resources
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.frmTree.resources
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.frmBindingList.resources
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.frmWelcome.resources
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.frmDictionary.resources
+D:\My_Projects\TuningSolution_GridTest\Quest.Tuning.GridTest\obj\Debug\Quest.Tuning.GridTest.frmSimpleGrid.resources

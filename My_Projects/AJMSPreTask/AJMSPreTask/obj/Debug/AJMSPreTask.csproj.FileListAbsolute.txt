@@ -1,0 +1,10 @@
+D:\My_Projects\AJMSPreTask\AJMSPreTask\bin\Debug\AJMSPreTask.exe.config
+D:\My_Projects\AJMSPreTask\AJMSPreTask\bin\Debug\AJMSPreTask.exe
+D:\My_Projects\AJMSPreTask\AJMSPreTask\bin\Debug\AJMSPreTask.pdb
+D:\My_Projects\AJMSPreTask\AJMSPreTask\bin\Debug\AJMSTypes.dll
+D:\My_Projects\AJMSPreTask\AJMSPreTask\bin\Debug\Tools.dll
+D:\My_Projects\AJMSPreTask\AJMSPreTask\bin\Debug\Tools.pdb
+D:\My_Projects\AJMSPreTask\AJMSPreTask\bin\Debug\AJMSTypes.pdb
+D:\My_Projects\AJMSPreTask\AJMSPreTask\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\AJMSPreTask\AJMSPreTask\obj\Debug\AJMSPreTask.exe
+D:\My_Projects\AJMSPreTask\AJMSPreTask\obj\Debug\AJMSPreTask.pdb

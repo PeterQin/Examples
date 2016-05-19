@@ -1,0 +1,8 @@
+D:\My_Projects\TestSQLParameter\TestSQLParameter\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\TestSQLParameter\TestSQLParameter\obj\Debug\TestSQLParameter.Form1.resources
+D:\My_Projects\TestSQLParameter\TestSQLParameter\obj\Debug\TestSQLParameter.Properties.Resources.resources
+D:\My_Projects\TestSQLParameter\TestSQLParameter\obj\Debug\TestSQLParameter.csproj.GenerateResource.Cache
+D:\My_Projects\TestSQLParameter\TestSQLParameter\bin\Debug\TestSQLParameter.exe
+D:\My_Projects\TestSQLParameter\TestSQLParameter\bin\Debug\TestSQLParameter.pdb
+D:\My_Projects\TestSQLParameter\TestSQLParameter\obj\Debug\TestSQLParameter.exe
+D:\My_Projects\TestSQLParameter\TestSQLParameter\obj\Debug\TestSQLParameter.pdb

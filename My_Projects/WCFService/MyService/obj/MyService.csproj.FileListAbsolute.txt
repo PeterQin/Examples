@@ -1,0 +1,5 @@
+D:\My_Projects\WCFService\MyService\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\WCFService\MyService\bin\Debug\MyService.dll
+D:\My_Projects\WCFService\MyService\bin\Debug\MyService.pdb
+D:\My_Projects\WCFService\MyService\obj\Debug\MyService.dll
+D:\My_Projects\WCFService\MyService\obj\Debug\MyService.pdb

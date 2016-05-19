@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PSolution_WCFService">
+</Property><Property Name="Solution File" Value="D:\My_Projects\PSolution_WCFService\PSolution_WCFService.sln">
+</Property><Property Name="User Options File" Value="D:\My_Projects\PSolution_WCFService\PSolution_WCFService.suo">
+</Property><Property Name="Date" Value="Thursday, April 07, 2016">
+</Property><Property Name="Time" Value="13:57 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PSolution_WCFService.sln" Description="File successfully backed up as D:\My_Projects\PSolution_WCFService\Backup\PSolution_WCFService.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PSolution_WCFService.suo" Description="File successfully backed up as D:\My_Projects\PSolution_WCFService\Backup\PSolution_WCFService.suo">
+</Event><Event ErrorLevel="0" Project="WCFService" Source="WCFService\WCFService.csproj" Description="Project file successfully backed up as D:\My_Projects\PSolution_WCFService\Backup\WCFService\WCFService.csproj">
+</Event><Event ErrorLevel="0" Project="WCFService" Source="WCFService\WCFService.cs" Description="File successfully backed up as D:\My_Projects\PSolution_WCFService\Backup\WCFService\WCFService.cs">
+</Event><Event ErrorLevel="0" Project="WCFService" Source="WCFService\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\My_Projects\PSolution_WCFService\Backup\WCFService\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WCFService" Source="WCFService\App.config" Description="File successfully backed up as D:\My_Projects\PSolution_WCFService\Backup\WCFService\App.config">
+</Event><Event ErrorLevel="0" Project="WCFService" Source="WCFService\WCFService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WCFService" Source="WCFService\WCFService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PSolution_WCFService.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PSolution_WCFService.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WCFService" Source="WCFService\WCFService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

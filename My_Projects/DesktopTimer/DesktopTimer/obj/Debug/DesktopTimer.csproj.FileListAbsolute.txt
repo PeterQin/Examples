@@ -1,0 +1,30 @@
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.exe
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.pdb
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\bin\Debug\DesktopTimer.exe
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\bin\Debug\DesktopTimer.pdb
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.frmDesktopTimer.resources
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.Properties.Resources.resources
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.csproj.GenerateResource.Cache
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\bin\Debug\Interop.WMPLib.dll
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\Interop.WMPLib.dll
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.csproj.ResolveComReference.cache
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.frmHiClock.resources
+C:\Users\Peter\Documents\Visual Studio 2012\Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.rcHiClock.resources
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\Interop.WMPLib.dll
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\AxInterop.WMPLib.dll
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.csproj.ResolveComReference.cache
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.exe
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.pdb
+D:\My_Projects\DesktopTimer\DesktopTimer\bin\Debug\DesktopTimer.exe
+D:\My_Projects\DesktopTimer\DesktopTimer\bin\Debug\DesktopTimer.pdb
+D:\My_Projects\DesktopTimer\DesktopTimer\bin\Debug\Interop.WMPLib.dll
+D:\My_Projects\DesktopTimer\DesktopTimer\bin\Debug\AxInterop.WMPLib.dll
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.csprojResolveAssemblyReference.cache
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.frmDesktopTimer.resources
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.frmHiClock.resources
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.Properties.Resources.resources
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.rcHiClock.resources
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.csproj.GenerateResource.Cache

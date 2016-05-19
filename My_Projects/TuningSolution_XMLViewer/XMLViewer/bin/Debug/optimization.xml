@@ -1,0 +1,19 @@
+<DataWithTabHeader>
+   <PageTabs>
+      <Tab PageId="Classification" Selected="False" Enabled="True">
+         <PageTitle><![CDATA[Classification]]></PageTitle>
+      </Tab>
+      <Tab PageId="OptimizationDetails" Selected="True" Enabled="True">
+         <PageTitle><![CDATA[Optimization Details]]></PageTitle>
+      </Tab>
+      <Tab PageId="IndexDetails" Selected="False" Enabled="True">
+         <PageTitle><![CDATA[Index Details]]></PageTitle>
+      </Tab>
+      <Tab PageId="Alert" Selected="False" Enabled="True">
+         <PageTitle><![CDATA[Alert]]></PageTitle>
+      </Tab>
+   </PageTabs>
+   <PageDetails>
+      <OptimizationDetails intelligenceLevel="6" startOptimize="12/29/1899 12:00:00 AM" endOptimize="12/29/1899 12:00:00 AM" totalOptimizationTime="12/29/1899 12:00:00 AM" averageOptimizationTime="11/28/0002 9:03:36 AM" totalSQLGenerated="996" totalSQLRemain="49" showWarning="True" SQLRulesQuota="True" intTotalSQLRulesQuota="200" joinPathQuota="True" intTotalJoinPathQuota="150" hintsQuota="True" intTotalHintsQuota="4000" parallelQuota="True" intTotalParallelQuota="-1" totalSQLDifferentPlan="3"/>
+   </PageDetails>
+</DataWithTabHeader>

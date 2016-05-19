@@ -1,0 +1,8 @@
+D:\My_Projects\PeterSolution_DatabaseManage\DatabaseManage\bin\Debug\DatabaseManage.exe
+D:\My_Projects\PeterSolution_DatabaseManage\DatabaseManage\bin\Debug\DatabaseManage.pdb
+D:\My_Projects\PeterSolution_DatabaseManage\DatabaseManage\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\PeterSolution_DatabaseManage\DatabaseManage\obj\Debug\DatabaseManage.frmDatabaseManage.resources
+D:\My_Projects\PeterSolution_DatabaseManage\DatabaseManage\obj\Debug\DatabaseManage.Properties.Resources.resources
+D:\My_Projects\PeterSolution_DatabaseManage\DatabaseManage\obj\Debug\DatabaseManage.csproj.GenerateResource.Cache
+D:\My_Projects\PeterSolution_DatabaseManage\DatabaseManage\obj\Debug\DatabaseManage.exe
+D:\My_Projects\PeterSolution_DatabaseManage\DatabaseManage\obj\Debug\DatabaseManage.pdb

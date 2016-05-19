@@ -1,0 +1,8 @@
+L:\Projects\TungingSolution_Reflection\Reflection\bin\Debug\Reflection.exe
+L:\Projects\TungingSolution_Reflection\Reflection\bin\Debug\Reflection.pdb
+L:\Projects\TungingSolution_Reflection\Reflection\obj\Debug\ResolveAssemblyReference.cache
+L:\Projects\TungingSolution_Reflection\Reflection\obj\Debug\Reflection.frmReflection.resources
+L:\Projects\TungingSolution_Reflection\Reflection\obj\Debug\Reflection.Properties.Resources.resources
+L:\Projects\TungingSolution_Reflection\Reflection\obj\Debug\Reflection.csproj.GenerateResource.Cache
+L:\Projects\TungingSolution_Reflection\Reflection\obj\Debug\Reflection.exe
+L:\Projects\TungingSolution_Reflection\Reflection\obj\Debug\Reflection.pdb

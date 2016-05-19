@@ -1,0 +1,28 @@
+use [{0}] 
+--Primary key 
+ALTER TABLE TestObjective Add CONSTRAINT UQ_TestObjective UNIQUE NONCLUSTERED (Objective, ProjectID), primary key (ObjectiveID, ProjectID);
+ALTER TABLE Workflow ADD CONSTRAINT UQ_Workflow primary key (WorkflowID, ProjectID);
+ALTER TABLE DataTable ADD CONSTRAINT UQ_DataTable UNIQUE NONCLUSTERED (DataTableName, ProjectID),primary key (DataTableID,ProjectID );
+ALTER TABLE command ADD CONSTRAINT UQ_command UNIQUE NONCLUSTERED(CommandName, ProjectID), primary key (CommandName, ProjectID);
+ALTER TABLE WorkflowStep ADD CONSTRAINT UQ_WorkflowStep UNIQUE NONCLUSTERED (WorkflowID,StepID, ProjectID), primary key (StepID, ProjectID);
+ALTER TABLE TestCaseName ADD CONSTRAINT UQ_TestCaseName UNIQUE NONCLUSTERED (TestCaseName,WorkflowID, ProjectID), primary key (TestCaseID, ProjectID);
+ALTER TABLE ToTest ADD CONSTRAINT UQ_ToTest primary key (ObjectiveID,TestCaseID, ProjectID);
+ALTER TABLE TestCase ADD CONSTRAINT UQ_TestCase primary key (TestCaseID, StepID, ProjectID);
+
+--Foreign key
+ALTER TABLE TestObjective ADD CONSTRAINT FK_ProjectsTestObjective  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID);
+ALTER TABLE Workflow ADD CONSTRAINT FK_ProjectsTestWorkflow  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID);
+ALTER TABLE DataTable ADD CONSTRAINT FK_ProjectsTestDataTable  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID);
+ALTER TABLE command ADD CONSTRAINT FK_DataTableCommand  FOREIGN KEY (DataTableID,ProjectID) REFERENCES DataTable (DataTableID,ProjectID);
+ALTER TABLE command ADD CONSTRAINT FK_ProjectsCommand  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID);
+ALTER TABLE WorkflowStep ADD CONSTRAINT FK_WorkflowWorkflowStep  FOREIGN KEY (WorkflowID,ProjectID) REFERENCES Workflow (WorkflowID,ProjectID);
+ALTER TABLE WorkflowStep ADD CONSTRAINT FK_ProjectsWorkflowStep  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID);
+ALTER TABLE WorkflowStep ADD CONSTRAINT FK_CommandWorkflowStep  FOREIGN KEY (CommandName,ProjectID) REFERENCES Command (CommandName,ProjectID);
+ALTER TABLE TestCaseName ADD CONSTRAINT FK_WorkflowTestCaseName  FOREIGN KEY (WorkflowID,ProjectID) REFERENCES Workflow (WorkflowID,ProjectID);
+ALTER TABLE TestCaseName ADD CONSTRAINT FK_ProjectsTestCaseName  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID);
+ALTER TABLE ToTest ADD CONSTRAINT FK_TestObjectiveToTest  FOREIGN KEY (ObjectiveID,ProjectID) REFERENCES TestObjective (ObjectiveID,ProjectID);
+ALTER TABLE ToTest ADD CONSTRAINT FK_TestCaseNameToTest  FOREIGN KEY (TestCaseID,ProjectID) REFERENCES TestCaseName (TestCaseID,ProjectID);
+ALTER TABLE ToTest ADD CONSTRAINT FK_ProjectsToTest  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID);
+ALTER TABLE TestCase ADD CONSTRAINT FK_WorkflowStepTestCase  FOREIGN KEY (StepID,ProjectID) REFERENCES WorkflowStep (StepID,ProjectID);
+ALTER TABLE TestCase ADD   CONSTRAINT FK_TestCaseNameTestCase  FOREIGN KEY (TestCaseID,ProjectID) REFERENCES TestCaseName (TestCaseID,ProjectID);
+ALTER TABLE TestCase ADD CONSTRAINT FK_ProjectsTestCase  FOREIGN KEY (ProjectID) REFERENCES Projects (ProjectID);

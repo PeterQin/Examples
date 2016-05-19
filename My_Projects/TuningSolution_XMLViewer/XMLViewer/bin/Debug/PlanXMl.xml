@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-32"?>
+<ExplainPlan>
+    <PlanElements>
+        <PlanElement StatementId="2" id="1" pid="0" operation="" EstimateRows="26466.0" EstimateIO="" EstimateCPU="" AverageRowSize="" TotalSubtreeCost="0.272209000" Parallel="False" EstimateExecutions="" Cost="0.002646600" CostPercent="000.97">
+            <Argument><![CDATA[1]]></Argument>
+            <Text><![CDATA[SELECT * FROM XA
+WHERE A >= ALL (select A from XA WHERE A<'AA')]]></Text>
+            <LogicalOperator_h></LogicalOperator_h>
+            <ArgumentObject_h></ArgumentObject_h>
+            <ArgumentWhere_h></ArgumentWhere_h>
+            <DefinedValues></DefinedValues>
+            <OutputList></OutputList>
+            <Warnings></Warnings>
+            <Type><![CDATA[SELECT]]></Type>
+            <PlanElements>
+                <PlanElement StatementId="2" id="3" pid="1" operation="Nested Loops" EstimateRows="26466.0" EstimateIO="0.000000000" EstimateCPU="0.110627900" AverageRowSize="40" TotalSubtreeCost="0.269562400" Parallel="False" EstimateExecutions="1.00" Cost="0.118567660" CostPercent="043.56">
+                    <Argument><![CDATA[WHERE:([XA].[A]<[XA].[A])]]></Argument>
+                    <Text><![CDATA[  |--Nested Loops(Left Anti Semi Join, WHERE:([XA].[A]<[XA].[A]))]]></Text>
+                    <LogicalOperator_h><![CDATA[Left Anti Semi Join]]></LogicalOperator_h>
+                    <ArgumentObject_h></ArgumentObject_h>
+                    <ArgumentWhere_h><![CDATA[[XA].[A]&lt;[XA].[A]]]></ArgumentWhere_h>
+                    <DefinedValues></DefinedValues>
+                    <OutputList><![CDATA[[XA].[A], [XA].[B]]]></OutputList>
+                    <Warnings></Warnings>
+                    <Type><![CDATA[PLAN_ROW]]></Type>
+                    <PlanElements>
+                        <PlanElement StatementId="2" id="4" pid="3" operation="Table Scan" EstimateRows="26466.0" EstimateIO="0.093874800" EstimateCPU="0.029191100" AverageRowSize="40" TotalSubtreeCost="0.123065900" Parallel="False" EstimateExecutions="1.00" Cost="0.123065900" CostPercent="045.21">
+                            <Argument><![CDATA[OBJECT:([sqlexp].[dbo].[XA])]]></Argument>
+                            <Text><![CDATA[       |--Table Scan(OBJECT:([sqlexp].[dbo].[XA]))]]></Text>
+                            <LogicalOperator_h><![CDATA[Table Scan]]></LogicalOperator_h>
+                            <ArgumentObject_h><![CDATA[[sqlexp].[dbo].[XA]]]></ArgumentObject_h>
+                            <ArgumentWhere_h></ArgumentWhere_h>
+                            <DefinedValues><![CDATA[[XA].[A], [XA].[B]]]></DefinedValues>
+                            <OutputList><![CDATA[[XA].[A], [XA].[B]]]></OutputList>
+                            <Warnings></Warnings>
+                            <Type><![CDATA[PLAN_ROW]]></Type>
+                            <PlanElements></PlanElements>
+                        </PlanElement>
+                        <PlanElement StatementId="2" id="5" pid="3" operation="Table Spool" EstimateRows="1.0" EstimateIO="0.016756760" EstimateCPU="0.000000280" AverageRowSize="16" TotalSubtreeCost="0.027928840" Parallel="False" EstimateExecutions="26466.00" Cost="0.021520737" CostPercent="007.91">
+                            <Argument></Argument>
+                            <Text><![CDATA[       |--Table Spool]]></Text>
+                            <LogicalOperator_h><![CDATA[Lazy Spool]]></LogicalOperator_h>
+                            <ArgumentObject_h></ArgumentObject_h>
+                            <ArgumentWhere_h></ArgumentWhere_h>
+                            <DefinedValues></DefinedValues>
+                            <OutputList><![CDATA[[XA].[A]]]></OutputList>
+                            <Warnings></Warnings>
+                            <Type><![CDATA[PLAN_ROW]]></Type>
+                            <PlanElements>
+                                <PlanElement StatementId="2" id="6" pid="5" operation="Index Seek" EstimateRows="1.0" EstimateIO="0.006328500" EstimateCPU="0.000079603" AverageRowSize="22" TotalSubtreeCost="0.006408103" Parallel="False" EstimateExecutions="1.00" Cost="0.006408103" CostPercent="002.35">
+                                    <Argument><![CDATA[OBJECT:([sqlexp].[dbo].[XA].[QUEST_SX_IDX_6719E8D1535D5484]), SEEK:([XA].[A] < 'AA') ORDERED FORWARD]]></Argument>
+                                    <Text><![CDATA[            |--Index Seek(OBJECT:([sqlexp].[dbo].[XA].[QUEST_SX_IDX_6719E8D1535D5484]), SEEK:([XA].[A] < 'AA') ORDERED FORWARD)]]></Text>
+                                    <LogicalOperator_h><![CDATA[Index Seek]]></LogicalOperator_h>
+                                    <ArgumentObject_h><![CDATA[[sqlexp].[dbo].[XA].[QUEST_SX_IDX_6719E8D1535D5484]]]></ArgumentObject_h>
+                                    <ArgumentWhere_h></ArgumentWhere_h>
+                                    <DefinedValues><![CDATA[[XA].[A]]]></DefinedValues>
+                                    <OutputList><![CDATA[[XA].[A]]]></OutputList>
+                                    <Warnings></Warnings>
+                                    <Type><![CDATA[PLAN_ROW]]></Type>
+                                    <PlanElements></PlanElements>
+                                </PlanElement>
+                            </PlanElements>
+                        </PlanElement>
+                    </PlanElements>
+                </PlanElement>
+            </PlanElements>
+        </PlanElement>
+    </PlanElements>
+</ExplainPlan>

@@ -1,0 +1,18 @@
+D:\Visual Studio 2005 Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\bin\Debug\Quest.Tuning.sqlCommandExample.exe
+D:\Visual Studio 2005 Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\bin\Debug\Quest.Tuning.sqlCommandExample.pdb
+D:\Visual Studio 2005 Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.Properties.Resources.resources
+D:\Visual Studio 2005 Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.csproj.GenerateResource.Cache
+D:\Visual Studio 2005 Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.exe
+D:\Visual Studio 2005 Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.pdb
+D:\Visual Studio 2005 Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.frmDatabaseBrowser.resources
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.exe
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.pdb
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.frmDatabaseBrowser.resources
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.Properties.Resources.resources
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.csproj.GenerateResource.Cache
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\bin\Debug\Quest.Tuning.sqlCommandExample.exe
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\bin\Debug\Quest.Tuning.sqlCommandExample.pdb
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\bin\Debug\Quest.Tuning.sqlCommandExample.exe.config
+D:\My_Projects\TungSolution_sqlCommandExample\Quest.Tuning.sqlCommandExample\obj\Debug\Quest.Tuning.sqlCommandExample.exe.licenses

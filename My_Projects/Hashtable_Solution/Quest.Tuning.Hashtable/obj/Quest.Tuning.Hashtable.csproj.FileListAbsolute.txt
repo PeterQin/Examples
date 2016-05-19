@@ -1,0 +1,5 @@
+D:\Visual Studio 2005 Projects\Hashtable_Solution\Quest.Tuning.Hashtable\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\Hashtable_Solution\Quest.Tuning.Hashtable\bin\Debug\Quest.Tuning.Hashtable.exe
+D:\Visual Studio 2005 Projects\Hashtable_Solution\Quest.Tuning.Hashtable\bin\Debug\Quest.Tuning.Hashtable.pdb
+D:\Visual Studio 2005 Projects\Hashtable_Solution\Quest.Tuning.Hashtable\obj\Debug\Quest.Tuning.Hashtable.exe
+D:\Visual Studio 2005 Projects\Hashtable_Solution\Quest.Tuning.Hashtable\obj\Debug\Quest.Tuning.Hashtable.pdb

@@ -1,0 +1,8 @@
+L:\Projects\TuningSolution_ReceiveMessageWindow\ReceiveMessageWindow\bin\Debug\ReceiveMessageWindow.exe
+L:\Projects\TuningSolution_ReceiveMessageWindow\ReceiveMessageWindow\bin\Debug\ReceiveMessageWindow.pdb
+L:\Projects\TuningSolution_ReceiveMessageWindow\ReceiveMessageWindow\obj\Debug\ResolveAssemblyReference.cache
+L:\Projects\TuningSolution_ReceiveMessageWindow\ReceiveMessageWindow\obj\Debug\ReceiveMessageWindow.frmClient.resources
+L:\Projects\TuningSolution_ReceiveMessageWindow\ReceiveMessageWindow\obj\Debug\ReceiveMessageWindow.Properties.Resources.resources
+L:\Projects\TuningSolution_ReceiveMessageWindow\ReceiveMessageWindow\obj\Debug\ReceiveMessageWindow.csproj.GenerateResource.Cache
+L:\Projects\TuningSolution_ReceiveMessageWindow\ReceiveMessageWindow\obj\Debug\ReceiveMessageWindow.exe
+L:\Projects\TuningSolution_ReceiveMessageWindow\ReceiveMessageWindow\obj\Debug\ReceiveMessageWindow.pdb

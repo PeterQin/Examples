@@ -1,0 +1,7 @@
+D:\My_Projects\VIXTest\VIXTest\bin\Debug\VIXTest.exe
+D:\My_Projects\VIXTest\VIXTest\bin\Debug\VIXTest.pdb
+D:\My_Projects\VIXTest\VIXTest\bin\Debug\Interop.VixCOM.DLL
+D:\My_Projects\VIXTest\VIXTest\bin\Debug\Vestris.VMWareLib.DLL
+D:\My_Projects\VIXTest\VIXTest\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\VIXTest\VIXTest\obj\Debug\VIXTest.exe
+D:\My_Projects\VIXTest\VIXTest\obj\Debug\VIXTest.pdb

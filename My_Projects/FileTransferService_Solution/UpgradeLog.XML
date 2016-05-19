@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FileTransferService_Solution">
+</Property><Property Name="Solution File" Value="D:\My_Projects\FileTransferService_Solution\FileTransferService_Solution.sln">
+</Property><Property Name="Date" Value="Thursday, April 07, 2016">
+</Property><Property Name="Time" Value="13:52 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Quest.Tuning.FileTransferService" Source="FileTransferService\Quest.Tuning.FileTransferService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Quest.Tuning.FileTransferService" Source="FileTransferService\Quest.Tuning.FileTransferService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Quest.Tuning.FileTransferCommon" Source="FileTransferCommon\Quest.Tuning.FileTransferCommon.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Quest.Tuning.FileTransferCommon" Source="FileTransferCommon\Quest.Tuning.FileTransferCommon.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Quest.Tuning.FileTransferConsoleService" Source="Quest.Tuning.ConsoleService\Quest.Tuning.FileTransferConsoleService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Quest.Tuning.FileTransferConsoleService" Source="Quest.Tuning.ConsoleService\Quest.Tuning.FileTransferConsoleService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Quest.Tuning.FileTransferWindowsService" Source="FileTransferWindowsService\Quest.Tuning.FileTransferWindowsService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Quest.Tuning.FileTransferWindowsService" Source="FileTransferWindowsService\Quest.Tuning.FileTransferWindowsService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FileTransferService_Solution.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FileTransferService_Solution.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Quest.Tuning.FileTransferConsoleService" Source="Quest.Tuning.ConsoleService\Quest.Tuning.FileTransferConsoleService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Quest.Tuning.FileTransferWindowsService" Source="FileTransferWindowsService\Quest.Tuning.FileTransferWindowsService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Quest.Tuning.FileTransferService" Source="FileTransferService\Quest.Tuning.FileTransferService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Quest.Tuning.FileTransferCommon" Source="FileTransferCommon\Quest.Tuning.FileTransferCommon.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

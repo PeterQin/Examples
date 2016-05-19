@@ -1,0 +1,5 @@
+D:\My_Projects\PeterSolution_WCF\WCFServer\bin\Debug\WCFServer.exe
+D:\My_Projects\PeterSolution_WCF\WCFServer\bin\Debug\WCFServer.pdb
+D:\My_Projects\PeterSolution_WCF\WCFServer\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\PeterSolution_WCF\WCFServer\obj\Debug\WCFServer.exe
+D:\My_Projects\PeterSolution_WCF\WCFServer\obj\Debug\WCFServer.pdb

@@ -1,0 +1,11 @@
+D:\My_Projects\WCFService\WCFService\obj\Debug\WCFService.csprojResolveAssemblyReference.cache
+D:\My_Projects\WCFService\WCFService\obj\Debug\WCFService.frmService.resources
+D:\My_Projects\WCFService\WCFService\obj\Debug\WCFService.Properties.Resources.resources
+D:\My_Projects\WCFService\WCFService\obj\Debug\WCFService.csproj.GenerateResource.Cache
+D:\My_Projects\WCFService\WCFService\bin\Debug\WCFService.exe.config
+D:\My_Projects\WCFService\WCFService\bin\Debug\WCFService.exe
+D:\My_Projects\WCFService\WCFService\bin\Debug\WCFService.pdb
+D:\My_Projects\WCFService\WCFService\bin\Debug\MyService.dll
+D:\My_Projects\WCFService\WCFService\bin\Debug\MyService.pdb
+D:\My_Projects\WCFService\WCFService\obj\Debug\WCFService.exe
+D:\My_Projects\WCFService\WCFService\obj\Debug\WCFService.pdb

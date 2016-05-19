@@ -1,0 +1,16 @@
+USE [{0}] 
+DECLARE ATCM_Table_Names_Cursor CURSOR 
+FOR 
+SELECT TABLE_NAME 
+FROM INFORMATION_SCHEMA.TABLES
+OPEN ATCM_Table_Names_Cursor 
+DECLARE @tablename sysname
+FETCH NEXT FROM ATCM_Table_Names_Cursor INTO @tablename 
+WHILE (@@FETCH_STATUS = 0) 
+BEGIN 
+ EXEC ('select * into [{1}].[dbo].['+@tablename+'] from [{0}].[dbo].['+@tablename+']')
+ EXEC ('ALTER TABLE [{1}].[dbo].['+@tablename+'] ADD ProjectID INT NOT NULL DEFAULT({2})')
+ FETCH NEXT FROM ATCM_Table_Names_Cursor INTO @tablename 
+END 
+CLOSE ATCM_Table_Names_Cursor 
+DEALLOCATE ATCM_Table_Names_Cursor

@@ -1,0 +1,15 @@
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\bin\Debug\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\bin\Debug\UpdateAssemblyInfo.pdb
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\Debug\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\Debug\UpdateAssemblyInfo.pdb
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\bin\x86\Debug\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\bin\x86\Debug\UpdateAssemblyInfo.pdb
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Debug\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Debug\UpdateAssemblyInfo.pdb
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\bin\x86\Release\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\bin\x86\Release\UpdateAssemblyInfo.pdb
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Release\ResolveAssemblyReference.cache
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Release\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Release\UpdateAssemblyInfo.pdb

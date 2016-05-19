@@ -1,0 +1,9 @@
+D:\My_Projects\WindowsApplication3\WindowsApplication3\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.Form1.resources
+D:\My_Projects\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.Properties.Resources.resources
+D:\My_Projects\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.csproj.GenerateResource.Cache
+D:\My_Projects\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.exe.licenses
+D:\My_Projects\WindowsApplication3\WindowsApplication3\bin\Debug\WindowsApplication3.exe
+D:\My_Projects\WindowsApplication3\WindowsApplication3\bin\Debug\WindowsApplication3.pdb
+D:\My_Projects\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.exe
+D:\My_Projects\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.pdb

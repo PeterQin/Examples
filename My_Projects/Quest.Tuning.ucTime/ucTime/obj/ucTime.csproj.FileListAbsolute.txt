@@ -1,0 +1,14 @@
+D:\Visual Studio 2005\Projects\ucTime\ucTime\bin\Debug\ucTime.dll
+D:\Visual Studio 2005\Projects\ucTime\ucTime\bin\Debug\ucTime.pdb
+D:\Visual Studio 2005\Projects\ucTime\ucTime\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005\Projects\ucTime\ucTime\obj\Debug\ucTime.ucShowCurrentTime.resources
+D:\Visual Studio 2005\Projects\ucTime\ucTime\obj\Debug\ucTime.csproj.GenerateResource.Cache
+D:\Visual Studio 2005\Projects\ucTime\ucTime\obj\Debug\ucTime.dll
+D:\Visual Studio 2005\Projects\ucTime\ucTime\obj\Debug\ucTime.pdb
+D:\Visual Studio 2005 Projects\ucTime\ucTime\bin\Debug\ucTime.dll
+D:\Visual Studio 2005 Projects\ucTime\ucTime\bin\Debug\ucTime.pdb
+D:\Visual Studio 2005 Projects\ucTime\ucTime\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\ucTime\ucTime\obj\Debug\ucTime.ucShowCurrentTime.resources
+D:\Visual Studio 2005 Projects\ucTime\ucTime\obj\Debug\ucTime.csproj.GenerateResource.Cache
+D:\Visual Studio 2005 Projects\ucTime\ucTime\obj\Debug\ucTime.dll
+D:\Visual Studio 2005 Projects\ucTime\ucTime\obj\Debug\ucTime.pdb

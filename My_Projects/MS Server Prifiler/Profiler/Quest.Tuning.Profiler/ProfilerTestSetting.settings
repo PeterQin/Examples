@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Quest.Tuning.Profiler" GeneratedClassName="ProfilerTestSetting">
+  <Profiles />
+  <Settings>
+    <Setting Name="Template" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Profiler\Optimize Indexes - Trace Templates\OptimizeIndexes_TraceTemplate_2008R2.tdf</Value>
+    </Setting>
+    <Setting Name="TraceFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Profiler\MyTrace.trc</Value>
+    </Setting>
+    <Setting Name="ServerName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ZHUVMSTDSQL2008R2</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sqlexp</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sqlexp</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

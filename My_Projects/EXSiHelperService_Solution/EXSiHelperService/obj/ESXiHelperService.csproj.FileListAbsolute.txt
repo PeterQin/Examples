@@ -1,0 +1,8 @@
+D:\My_Projects\EXSiHelperService_Solution\EXSiHelperService\bin\Debug\EXSiHelperService.exe
+D:\My_Projects\EXSiHelperService_Solution\EXSiHelperService\bin\Debug\EXSiHelperService.pdb
+D:\My_Projects\EXSiHelperService_Solution\EXSiHelperService\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\EXSiHelperService_Solution\EXSiHelperService\obj\Debug\EXSiHelperService.exe
+D:\My_Projects\EXSiHelperService_Solution\EXSiHelperService\obj\Debug\EXSiHelperService.pdb
+D:\My_Projects\EXSiHelperService_Solution\EXSiHelperService\obj\Debug\AJMS.ProjectInstaller.resources
+D:\My_Projects\EXSiHelperService_Solution\EXSiHelperService\obj\Debug\ESXiHelperService.csproj.GenerateResource.Cache
+D:\My_Projects\EXSiHelperService_Solution\EXSiHelperService\obj\Debug\AJMS.ESXiHelperService.resources

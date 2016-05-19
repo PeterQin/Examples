@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SetupProjOriginalOutput>\bin\Release</SetupProjOriginalOutput>
+  <BuildSolutionCmd>devenv "{0}" /rebuild {1} </BuildSolutionCmd>
+  <BuildProjectCmd>/project "{0}" /projectconfig {1}</BuildProjectCmd>
+  <BuildConfig>"Release|x86"</BuildConfig>
+  <DevenvFolder>C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\</DevenvFolder>
+  <DevenvFolder2005>C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE</DevenvFolder2005>
+  <DevenvFolder2008>C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE</DevenvFolder2008>
+  <DevenvFolder2010>C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE</DevenvFolder2010>
+  <DevenvFolder2012>C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\</DevenvFolder2012>
+  <AssemblyInfoSource>
+    <TAssemblyInfo>
+      <InfoName>AssemblyCompany</InfoName>
+      <InfoValue>Peter.Inc</InfoValue>
+    </TAssemblyInfo>
+    <TAssemblyInfo>
+      <InfoName>AssemblyCopyright</InfoName>
+      <InfoValue>Copyright © Peter.Inc 2013</InfoValue>
+    </TAssemblyInfo>
+    <TAssemblyInfo>
+      <InfoName>AssemblyVersion</InfoName>
+      <InfoValue>1.0.0.1</InfoValue>
+    </TAssemblyInfo>
+    <TAssemblyInfo>
+      <InfoName>AssemblyFileVersion</InfoName>
+      <InfoValue>1.0.0.1</InfoValue>
+    </TAssemblyInfo>
+  </AssemblyInfoSource>
+</ViewModel>

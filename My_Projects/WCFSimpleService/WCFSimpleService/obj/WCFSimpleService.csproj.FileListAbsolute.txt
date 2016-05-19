@@ -1,0 +1,6 @@
+D:\My_Projects\WCFSimpleService\WCFSimpleService\bin\Debug\WCFSimpleService.exe
+D:\My_Projects\WCFSimpleService\WCFSimpleService\bin\Debug\WCFSimpleService.pdb
+D:\My_Projects\WCFSimpleService\WCFSimpleService\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\WCFSimpleService\WCFSimpleService\obj\Debug\WCFSimpleService.exe
+D:\My_Projects\WCFSimpleService\WCFSimpleService\obj\Debug\WCFSimpleService.pdb
+D:\My_Projects\WCFSimpleService\WCFSimpleService\bin\Debug\WCFSimpleService.exe.config

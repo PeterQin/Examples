@@ -1,0 +1,8 @@
+L:\Projects\TuningSolution_FindWindow\FindWindow\bin\Debug\FindWindow.exe
+L:\Projects\TuningSolution_FindWindow\FindWindow\bin\Debug\FindWindow.pdb
+L:\Projects\TuningSolution_FindWindow\FindWindow\obj\Debug\ResolveAssemblyReference.cache
+L:\Projects\TuningSolution_FindWindow\FindWindow\obj\Debug\FindWindow.Properties.Resources.resources
+L:\Projects\TuningSolution_FindWindow\FindWindow\obj\Debug\FindWindow.csproj.GenerateResource.Cache
+L:\Projects\TuningSolution_FindWindow\FindWindow\obj\Debug\FindWindow.exe
+L:\Projects\TuningSolution_FindWindow\FindWindow\obj\Debug\FindWindow.pdb
+L:\Projects\TuningSolution_FindWindow\FindWindow\obj\Debug\FindWindow.frmServer.resources

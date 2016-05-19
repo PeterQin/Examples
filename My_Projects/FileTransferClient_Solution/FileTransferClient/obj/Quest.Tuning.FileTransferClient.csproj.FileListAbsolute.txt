@@ -1,0 +1,8 @@
+D:\My_Projects\FileTransferClient_Solution\FileTransferClient\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\FileTransferClient_Solution\FileTransferClient\bin\Debug\Quest.Tuning.FileTransferCommon.dll
+D:\My_Projects\FileTransferClient_Solution\FileTransferClient\bin\Debug\Quest.Tuning.FileTransferCommon.pdb
+D:\My_Projects\FileTransferClient_Solution\FileTransferClient\bin\Debug\Quest.Tuning.FileTransferClient.exe.config
+D:\My_Projects\FileTransferClient_Solution\FileTransferClient\bin\Debug\Quest.Tuning.FileTransferClient.exe
+D:\My_Projects\FileTransferClient_Solution\FileTransferClient\bin\Debug\Quest.Tuning.FileTransferClient.pdb
+D:\My_Projects\FileTransferClient_Solution\FileTransferClient\obj\Debug\Quest.Tuning.FileTransferClient.exe
+D:\My_Projects\FileTransferClient_Solution\FileTransferClient\obj\Debug\Quest.Tuning.FileTransferClient.pdb

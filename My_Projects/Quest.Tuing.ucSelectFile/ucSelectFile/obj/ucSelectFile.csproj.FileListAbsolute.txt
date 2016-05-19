@@ -1,0 +1,9 @@
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\bin\Debug\ucSelectFile.dll
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\bin\Debug\ucSelectFile.pdb
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\obj\Debug\ucSelectFile.csproj.GenerateResource.Cache
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\obj\Debug\ucSelectFile.dll.licenses
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\obj\Debug\ucSelectFile.dll
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\obj\Debug\ucSelectFile.pdb
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\obj\Debug\Quest.Tunning.SelectFile.ucSelectFile.resources
+D:\Visual Studio 2005\Projects\ucSelectFile\ucSelectFile\obj\Debug\ucSelectFile.rcLabelText.resources

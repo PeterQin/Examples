@@ -1,0 +1,10 @@
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\bin\Debug\AssemblyInfoUtil.exe
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\bin\Debug\AssemblyInfoUtil.pdb
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\obj\Debug\AssemblyInfoUtil.exe
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\obj\Debug\AssemblyInfoUtil.pdb
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\bin\x86\Release\AssemblyInfoUtil.exe
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\bin\x86\Release\AssemblyInfoUtil.pdb
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\obj\x86\Release\ResolveAssemblyReference.cache
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\obj\x86\Release\AssemblyInfoUtil.exe
+D:\My_Projects\AssemblyInfoUtil\AssemblyInfoUtil\obj\x86\Release\AssemblyInfoUtil.pdb

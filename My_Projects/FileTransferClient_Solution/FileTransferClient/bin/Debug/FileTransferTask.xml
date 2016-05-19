@@ -1,0 +1,4 @@
+<Tasks><Task Type="Download"><Source><![CDATA[C:\Intel]]></Source><Destination><![CDATA[D:\Share to copy]]></Destination><Result Type="Fail"><![CDATA[Download from C:\Intel\Logs\IntelControlCenter.log fail with exception: Isn't valid shared path
+Download from C:\Intel\Logs\IntelIRST.log fail with exception: Isn't valid shared path
+Download from C:\Intel\Logs\IntelMESOL.log fail with exception: Isn't valid shared path
+]]></Result></Task></Tasks>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPITestDX", "DPITestDX\DPITestDX.csproj", "{D75BB5DC-BA06-4F2E-BA29-50589B94EEFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D75BB5DC-BA06-4F2E-BA29-50589B94EEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75BB5DC-BA06-4F2E-BA29-50589B94EEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75BB5DC-BA06-4F2E-BA29-50589B94EEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75BB5DC-BA06-4F2E-BA29-50589B94EEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

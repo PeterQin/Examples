@@ -1,0 +1,8 @@
+D:\My_Projects\ScanSQL\ScanSQL\bin\Debug\ScanSQL.exe
+D:\My_Projects\ScanSQL\ScanSQL\bin\Debug\ScanSQL.pdb
+D:\My_Projects\ScanSQL\ScanSQL\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\ScanSQL\ScanSQL\obj\Debug\ScanSQL.Form1.resources
+D:\My_Projects\ScanSQL\ScanSQL\obj\Debug\ScanSQL.Properties.Resources.resources
+D:\My_Projects\ScanSQL\ScanSQL\obj\Debug\ScanSQL.csproj.GenerateResource.Cache
+D:\My_Projects\ScanSQL\ScanSQL\obj\Debug\ScanSQL.exe
+D:\My_Projects\ScanSQL\ScanSQL\obj\Debug\ScanSQL.pdb

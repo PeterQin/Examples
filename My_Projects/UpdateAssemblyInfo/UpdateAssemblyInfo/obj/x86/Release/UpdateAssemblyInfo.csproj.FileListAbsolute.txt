@@ -1,0 +1,5 @@
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Release\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Release\UpdateAssemblyInfo.pdb
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\bin\x86\Release\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\bin\x86\Release\UpdateAssemblyInfo.pdb
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\x86\Release\UpdateAssemblyInfo.csprojResolveAssemblyReference.cache

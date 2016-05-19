@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipHelper", "WindowsFormsApplication2\ZipHelper.csproj", "{5DB4369C-3888-4BFA-8CF5-8356CA7221CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DB4369C-3888-4BFA-8CF5-8356CA7221CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB4369C-3888-4BFA-8CF5-8356CA7221CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB4369C-3888-4BFA-8CF5-8356CA7221CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB4369C-3888-4BFA-8CF5-8356CA7221CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

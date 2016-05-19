@@ -1,0 +1,16 @@
+I:\project\GetFormClass\GetFormClass\obj\Debug\GetFormClass.exe
+I:\project\GetFormClass\GetFormClass\obj\Debug\GetFormClass.pdb
+I:\project\GetFormClass\GetFormClass\bin\Debug\GetFormClass.exe
+I:\project\GetFormClass\GetFormClass\bin\Debug\GetFormClass.pdb
+I:\project\GetFormClass\GetFormClass\obj\Debug\ResolveAssemblyReference.cache
+I:\project\GetFormClass\GetFormClass\obj\Debug\GetFormClass.Form1.resources
+I:\project\GetFormClass\GetFormClass\obj\Debug\GetFormClass.Properties.Resources.resources
+I:\project\GetFormClass\GetFormClass\obj\Debug\GetFormClass.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\GetFormClass\GetFormClass\GetFormClass\obj\Debug\GetFormClass.exe
+C:\Documents and Settings\Administrator\Desktop\GetFormClass\GetFormClass\GetFormClass\obj\Debug\GetFormClass.pdb
+C:\Documents and Settings\Administrator\Desktop\GetFormClass\GetFormClass\GetFormClass\bin\Debug\GetFormClass.exe
+C:\Documents and Settings\Administrator\Desktop\GetFormClass\GetFormClass\GetFormClass\bin\Debug\GetFormClass.pdb
+C:\Documents and Settings\Administrator\Desktop\GetFormClass\GetFormClass\GetFormClass\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\GetFormClass\GetFormClass\GetFormClass\obj\Debug\GetFormClass.Form1.resources
+C:\Documents and Settings\Administrator\Desktop\GetFormClass\GetFormClass\GetFormClass\obj\Debug\GetFormClass.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\GetFormClass\GetFormClass\GetFormClass\obj\Debug\GetFormClass.csproj.GenerateResource.Cache

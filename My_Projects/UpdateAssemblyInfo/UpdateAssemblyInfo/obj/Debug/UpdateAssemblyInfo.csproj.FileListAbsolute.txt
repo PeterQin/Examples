@@ -1,0 +1,2 @@
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\Debug\UpdateAssemblyInfo.exe
+D:\My_Projects\UpdateAssemblyInfo\UpdateAssemblyInfo\obj\Debug\UpdateAssemblyInfo.pdb

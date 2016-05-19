@@ -1,0 +1,11 @@
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\bin\Debug\Quest.Tuning.BarManagerTest.exe
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\bin\Debug\Quest.Tuning.BarManagerTest.pdb
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\Quest.Tuning.BarManagerTest.frmDisplay.resources
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\Quest.Tuning.BarManagerTest.Properties.Resources.resources
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\Quest.Tuning.BarManagerTest.csproj.GenerateResource.Cache
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\Quest.Tuning.BarManagerTest.exe.licenses
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\Quest.Tuning.BarManagerTest.exe
+D:\Visual Studio 2005 Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\Quest.Tuning.BarManagerTest.pdb
+D:\My_Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\Quest.Tuning.BarManagerTest.exe
+D:\My_Projects\BarManagerTest\Quest.Tuning.BarManagerTest\obj\Debug\Quest.Tuning.BarManagerTest.pdb

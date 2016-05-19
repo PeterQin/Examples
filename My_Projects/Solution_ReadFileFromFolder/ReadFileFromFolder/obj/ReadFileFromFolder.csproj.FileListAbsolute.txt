@@ -1,0 +1,18 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\bin\Debug\ReadFileFromFolder.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\bin\Debug\ReadFileFromFolder.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.frmReadFile.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.exe.licenses
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2005\Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.pdb
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.exe
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.pdb
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\bin\Debug\ReadFileFromFolder.exe
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\bin\Debug\ReadFileFromFolder.pdb
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.frmReadFile.resources
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.Properties.Resources.resources
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.csproj.GenerateResource.Cache
+D:\My_Projects\Solution_ReadFileFromFolder\ReadFileFromFolder\obj\Debug\ReadFileFromFolder.exe.licenses

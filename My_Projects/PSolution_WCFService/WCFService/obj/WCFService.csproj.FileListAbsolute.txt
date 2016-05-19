@@ -1,0 +1,12 @@
+C:\Projects\PSolution_WCFService\WCFService\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\PSolution_WCFService\WCFService\bin\Debug\WCFService.exe
+C:\Projects\PSolution_WCFService\WCFService\bin\Debug\WCFService.pdb
+C:\Projects\PSolution_WCFService\WCFService\obj\Debug\WCFService.exe
+C:\Projects\PSolution_WCFService\WCFService\obj\Debug\WCFService.pdb
+C:\Projects\PSolution_WCFService\WCFService\bin\Debug\WCFService.exe.config
+D:\My_Projects\PSolution_WCFService\WCFService\bin\Debug\WCFService.exe.config
+D:\My_Projects\PSolution_WCFService\WCFService\obj\Debug\WCFService.exe
+D:\My_Projects\PSolution_WCFService\WCFService\obj\Debug\WCFService.pdb
+D:\My_Projects\PSolution_WCFService\WCFService\bin\Debug\WCFService.exe
+D:\My_Projects\PSolution_WCFService\WCFService\bin\Debug\WCFService.pdb
+D:\My_Projects\PSolution_WCFService\WCFService\obj\Debug\ResolveAssemblyReference.cache

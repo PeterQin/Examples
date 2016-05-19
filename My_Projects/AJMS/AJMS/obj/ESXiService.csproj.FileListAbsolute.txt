@@ -1,0 +1,5 @@
+D:\My_Projects\AJMS\AJMS\bin\Debug\AJMS.exe
+D:\My_Projects\AJMS\AJMS\bin\Debug\AJMS.pdb
+D:\My_Projects\AJMS\AJMS\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\AJMS\AJMS\obj\Debug\AJMS.exe
+D:\My_Projects\AJMS\AJMS\obj\Debug\AJMS.pdb

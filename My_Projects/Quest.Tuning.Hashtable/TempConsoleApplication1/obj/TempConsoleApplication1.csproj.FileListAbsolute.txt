@@ -1,0 +1,5 @@
+D:\Visual Studio 2005 Projects\TempConsoleApplication1\TempConsoleApplication1\bin\Debug\TempConsoleApplication1.exe
+D:\Visual Studio 2005 Projects\TempConsoleApplication1\TempConsoleApplication1\bin\Debug\TempConsoleApplication1.pdb
+D:\Visual Studio 2005 Projects\TempConsoleApplication1\TempConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\TempConsoleApplication1\TempConsoleApplication1\obj\Debug\TempConsoleApplication1.exe
+D:\Visual Studio 2005 Projects\TempConsoleApplication1\TempConsoleApplication1\obj\Debug\TempConsoleApplication1.pdb

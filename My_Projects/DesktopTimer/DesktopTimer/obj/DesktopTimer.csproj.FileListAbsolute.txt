@@ -1,0 +1,8 @@
+D:\My_Projects\DesktopTimer\DesktopTimer\bin\Debug\DesktopTimer.exe
+D:\My_Projects\DesktopTimer\DesktopTimer\bin\Debug\DesktopTimer.pdb
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.frmDesktopTimer.resources
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.Properties.Resources.resources
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.csproj.GenerateResource.Cache
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.exe
+D:\My_Projects\DesktopTimer\DesktopTimer\obj\Debug\DesktopTimer.pdb

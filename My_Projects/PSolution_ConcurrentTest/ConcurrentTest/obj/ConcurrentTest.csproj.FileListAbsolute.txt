@@ -1,0 +1,8 @@
+D:\My_Projects\PSolution_ConcurrentTest\ConcurrentTest\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\PSolution_ConcurrentTest\ConcurrentTest\obj\Debug\ConcurrentTest.Properties.Resources.resources
+D:\My_Projects\PSolution_ConcurrentTest\ConcurrentTest\obj\Debug\ConcurrentTest.csproj.GenerateResource.Cache
+D:\My_Projects\PSolution_ConcurrentTest\ConcurrentTest\bin\Debug\ConcurrentTest.exe
+D:\My_Projects\PSolution_ConcurrentTest\ConcurrentTest\bin\Debug\ConcurrentTest.pdb
+D:\My_Projects\PSolution_ConcurrentTest\ConcurrentTest\obj\Debug\ConcurrentTest.exe
+D:\My_Projects\PSolution_ConcurrentTest\ConcurrentTest\obj\Debug\ConcurrentTest.pdb
+D:\My_Projects\PSolution_ConcurrentTest\ConcurrentTest\obj\Debug\ConcurrentTest.Form1.resources

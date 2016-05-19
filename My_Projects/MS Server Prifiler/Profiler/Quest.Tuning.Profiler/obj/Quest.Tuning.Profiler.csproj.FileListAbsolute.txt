@@ -1,0 +1,63 @@
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\bin\Debug\Quest.Tuning.Profiler.exe
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\bin\Debug\Quest.Tuning.Profiler.pdb
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.frmProfiler.resources
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.Properties.Resources.resources
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.csproj.GenerateResource.Cache
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.exe
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.pdb
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.exe.licenses
+D:\Visual Studio 2005 Projects\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.rcMessage.resources
+D:\My work space\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.exe
+D:\My work space\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.pdb
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.exe
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.pdb
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\ResolveAssemblyReference.cache
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.frmProfiler.resources
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.Properties.Resources.resources
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.rcMessage.resources
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.csproj.GenerateResource.Cache
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.exe.licenses
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\Debug\Quest.Tuning.Profiler.exe
+L:\Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\Debug\Quest.Tuning.Profiler.pdb
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.frmProfiler.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.Properties.Resources.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.rcMessage.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.csproj.GenerateResource.Cache
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.exe
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.pdb
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\Debug\Quest.Tuning.Profiler.exe
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\Debug\Quest.Tuning.Profiler.pdb
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\ResolveAssemblyReference.cache
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.frmProfiler.resources
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.Properties.Resources.resources
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.rcMessage.resources
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.csproj.GenerateResource.Cache
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.exe.licenses
+\\zhuflsw01\HOME\pqin\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.XtraForm1.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.frmMessage.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.ucFileReader.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\Quest.Tuning.Profiler.ucTrace.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\Debug\ProfilerTest.exe
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\Debug\ProfilerTest.pdb
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\ProfilerTest.exe.licenses
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\ProfilerTest.exe
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\Debug\ProfilerTest.pdb
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\x86\Debug\ProfilerTest.exe
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\x86\Debug\ProfilerTest.pdb
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\Quest.Tuning.Profiler.frmProfiler.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\Quest.Tuning.Profiler.Properties.Resources.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\Quest.Tuning.Profiler.rcMessage.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\Quest.Tuning.Profiler.frmMessage.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\Quest.Tuning.Profiler.ucFileReader.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\Quest.Tuning.Profiler.ucTrace.resources
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\Quest.Tuning.Profiler.csproj.GenerateResource.Cache
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\ProfilerTest.exe.licenses
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\ProfilerTest.exe
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\obj\x86\Debug\ProfilerTest.pdb
+D:\My_Projects\MS Server Prifiler\Profiler\Quest.Tuning.Profiler\bin\x86\Debug\ProfilerTest.exe.config
+C:\Profiler\ProfilerTest.exe.config
+C:\Profiler\ProfilerTest.exe
+C:\Profiler\ProfilerTest.pdb

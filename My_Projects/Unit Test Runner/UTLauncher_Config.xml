@@ -1,0 +1,14 @@
+﻿<UnitTestLauncher>
+	<config>
+		<ProductName><![CDATA[Quest SQL Optimizer for SQL Server]]></ProductName>
+		<NewBuildDir><![CDATA[C:\Program Files\Quest Software\Unit Test Runner\New Build\]]></NewBuildDir>
+		<InstallDir><![CDATA[C:\Program Files\Quest Software\Quest SQL Optimizer for SQL Server 7.5\]]></InstallDir>
+		<UnitTestFilesDir><![CDATA[C:\Program Files\Quest Software\Unit Test Runner\Test Files\]]></UnitTestFilesDir>
+		<UnitTestResultBaseDir><![CDATA[\\zhuflsw01\WORKGROUP\RND\SQL Tuning\Builds\Quest SQL Optimizer for SQL Server\7.5\UnitTestResults]]></UnitTestResultBaseDir>
+		<NunitExecutable><![CDATA[C:\Program Files\NUnit 2.5.7\bin\net-2.0\nunit-console.exe]]></NunitExecutable>
+		<NAntExecutable><![CDATA[C:\Program Files\nant-0.91-beta1\bin\NAnt.exe]]></NAntExecutable>
+		<EmailReportFrom><![CDATA[svc-ZHU.AJMS@Quest.com]]></EmailReportFrom>
+		<EmailReportTo><![CDATA[Peter.Qin@Quest.com;]]></EmailReportTo>
+		<EmailReportCc><![CDATA[]]></EmailReportCc>
+	</config>
+</UnitTestLauncher>

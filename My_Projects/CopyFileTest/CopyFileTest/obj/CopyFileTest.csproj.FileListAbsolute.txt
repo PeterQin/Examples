@@ -1,0 +1,9 @@
+D:\My_Projects\CopyFileTest\CopyFileTest\bin\Debug\CopyFileTest.exe
+D:\My_Projects\CopyFileTest\CopyFileTest\bin\Debug\CopyFileTest.pdb
+D:\My_Projects\CopyFileTest\CopyFileTest\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\CopyFileTest\CopyFileTest\obj\Debug\CopyFileTest.Form1.resources
+D:\My_Projects\CopyFileTest\CopyFileTest\obj\Debug\CopyFileTest.Properties.Resources.resources
+D:\My_Projects\CopyFileTest\CopyFileTest\obj\Debug\CopyFileTest.csproj.GenerateResource.Cache
+D:\My_Projects\CopyFileTest\CopyFileTest\obj\Debug\CopyFileTest.exe.licenses
+D:\My_Projects\CopyFileTest\CopyFileTest\obj\Debug\CopyFileTest.exe
+D:\My_Projects\CopyFileTest\CopyFileTest\obj\Debug\CopyFileTest.pdb

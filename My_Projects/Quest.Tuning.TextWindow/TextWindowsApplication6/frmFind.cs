@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace Quest.Tuning.TextWindowsApplication6
+{
+    public partial class frmFind : Form
+    {
+        public event EventHandler FindAction;
+        public frmFind()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TMessage.SetFindString(textBox1.Text);
+            FindAction(sender,e);
+        }
+    }
+}

@@ -1,0 +1,5 @@
+D:\My_Projects\CalculatorConsole\CalculatorConsole\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\CalculatorConsole\CalculatorConsole\bin\Debug\CalculatorConsole.exe
+D:\My_Projects\CalculatorConsole\CalculatorConsole\bin\Debug\CalculatorConsole.pdb
+D:\My_Projects\CalculatorConsole\CalculatorConsole\obj\Debug\CalculatorConsole.exe
+D:\My_Projects\CalculatorConsole\CalculatorConsole\obj\Debug\CalculatorConsole.pdb

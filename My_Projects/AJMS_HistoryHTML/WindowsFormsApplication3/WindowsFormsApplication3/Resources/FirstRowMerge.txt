@@ -1,0 +1,8 @@
+﻿<tr>
+<td width="15%" rowspan = "{6}">{0}</td>
+<td width="8%" rowspan = "{6}">{1}</td>
+<td width="1%">{2}</td>
+<td width="7%">{3}</td>
+<td width="17%">{4}</td>
+<td width="13%">{5}</td>
+</tr>

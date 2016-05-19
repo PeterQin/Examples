@@ -1,0 +1,8 @@
+D:\Visual Studio 2005\Projects\ucSelectApplication\ucSelectApplication\bin\Debug\ucSelectApplication.dll
+D:\Visual Studio 2005\Projects\ucSelectApplication\ucSelectApplication\bin\Debug\ucSelectApplication.pdb
+D:\Visual Studio 2005\Projects\ucSelectApplication\ucSelectApplication\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2005\Projects\ucSelectApplication\ucSelectApplication\obj\Debug\ucSelectApplication.csproj.GenerateResource.Cache
+D:\Visual Studio 2005\Projects\ucSelectApplication\ucSelectApplication\obj\Debug\ucSelectApplication.dll.licenses
+D:\Visual Studio 2005\Projects\ucSelectApplication\ucSelectApplication\obj\Debug\ucSelectApplication.dll
+D:\Visual Studio 2005\Projects\ucSelectApplication\ucSelectApplication\obj\Debug\ucSelectApplication.pdb
+D:\Visual Studio 2005\Projects\ucSelectApplication\ucSelectApplication\obj\Debug\Quest.Tunning.SelectApplication.ucSelectApplication.resources

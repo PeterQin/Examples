@@ -1,0 +1,13 @@
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\obj\Debug\Quest.Tuning.FileTransferWindowsService.FileTransferWindowsService.resources
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\obj\Debug\Quest.Tuning.FileTransferWindowsService.ProjectInstaller.resources
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\obj\Debug\Quest.Tuning.FileTransferWindowsService.csproj.GenerateResource.Cache
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\bin\Debug\Quest.Tuning.FileTransferWindowsService.exe.config
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\bin\Debug\Quest.Tuning.FileTransferWindowsService.exe
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\bin\Debug\Quest.Tuning.FileTransferWindowsService.pdb
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\bin\Debug\Quest.Tuning.FileTransferCommon.dll
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\bin\Debug\Quest.Tuning.FileTransferService.dll
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\bin\Debug\Quest.Tuning.FileTransferCommon.pdb
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\bin\Debug\Quest.Tuning.FileTransferService.pdb
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\obj\Debug\Quest.Tuning.FileTransferWindowsService.exe
+D:\My_Projects\FileTransferService_Solution\FileTransferWindowsService\obj\Debug\Quest.Tuning.FileTransferWindowsService.pdb

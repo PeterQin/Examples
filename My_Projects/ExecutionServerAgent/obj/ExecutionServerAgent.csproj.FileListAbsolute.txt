@@ -1,0 +1,12 @@
+D:\ExecutionServerAgent\bin\Debug\ExecutionServerAgent.exe
+D:\ExecutionServerAgent\bin\Debug\ExecutionServerAgent.pdb
+D:\ExecutionServerAgent\obj\Debug\ResolveAssemblyReference.cache
+D:\ExecutionServerAgent\obj\Debug\ExecutionServerAgent.ServiceInstaller.resources
+D:\ExecutionServerAgent\obj\Debug\Quest.Tuning.ExecutionServerAgent.Service.resources
+D:\ExecutionServerAgent\obj\Debug\ExecutionServerAgent.csproj.GenerateResource.Cache
+D:\ExecutionServerAgent\obj\Debug\ExecutionServerAgent.exe
+D:\ExecutionServerAgent\obj\Debug\ExecutionServerAgent.pdb
+D:\My work space\ExecutionServerAgent\obj\Debug\ExecutionServerAgent.exe
+D:\My work space\ExecutionServerAgent\obj\Debug\ExecutionServerAgent.pdb
+D:\My_Projects\ExecutionServerAgent\obj\Debug\ExecutionServerAgent.exe
+D:\My_Projects\ExecutionServerAgent\obj\Debug\ExecutionServerAgent.pdb

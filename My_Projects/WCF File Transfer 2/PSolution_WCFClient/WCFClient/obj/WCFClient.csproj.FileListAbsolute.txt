@@ -1,0 +1,12 @@
+C:\Projects\PSolution_WCFClient\WCFClient\bin\Debug\WCFClient.exe
+C:\Projects\PSolution_WCFClient\WCFClient\bin\Debug\WCFClient.pdb
+C:\Projects\PSolution_WCFClient\WCFClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\PSolution_WCFClient\WCFClient\obj\Debug\WCFClient.exe
+C:\Projects\PSolution_WCFClient\WCFClient\obj\Debug\WCFClient.pdb
+C:\Projects\PSolution_WCFClient\WCFClient\bin\Debug\WCFClient.exe.config
+D:\My_Projects\WCF File Transfer 2\PSolution_WCFClient\WCFClient\bin\Debug\WCFClient.exe.config
+D:\My_Projects\WCF File Transfer 2\PSolution_WCFClient\WCFClient\obj\Debug\WCFClient.exe
+D:\My_Projects\WCF File Transfer 2\PSolution_WCFClient\WCFClient\obj\Debug\WCFClient.pdb
+D:\My_Projects\WCF File Transfer 2\PSolution_WCFClient\WCFClient\bin\Debug\WCFClient.exe
+D:\My_Projects\WCF File Transfer 2\PSolution_WCFClient\WCFClient\bin\Debug\WCFClient.pdb
+D:\My_Projects\WCF File Transfer 2\PSolution_WCFClient\WCFClient\obj\Debug\ResolveAssemblyReference.cache
