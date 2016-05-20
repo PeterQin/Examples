@@ -1,0 +1,12 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\bin\x86\Release\WpfApp.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\bin\x86\Release\WpfApp.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\WpfApp.csprojResolveAssemblyReference.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\MainWindow.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\MainWindow.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\App.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\WpfApp_MarkupCompile.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\WpfApp.g.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\WpfApp.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\WpfApp.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\WpfApp.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\obj\x86\Release\WpfApp.pdb

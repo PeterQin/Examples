@@ -1,0 +1,45 @@
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.exe.config
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.csprojResolveAssemblyReference.cache
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\MainWindow.baml
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\MainWindow.g.cs
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\App.g.cs
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound_MarkupCompile.cache
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.g.resources
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.Properties.Resources.resources
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.csproj.GenerateResource.Cache
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.exe
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.pdb
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound_MarkupCompile.lref
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.exe
+c:\users\peter\documents\visual studio 2012\Projects\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.pdb
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.exe.config
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.exe
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.pdb
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.exe
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.pdb
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.csprojResolveAssemblyReference.cache
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\MainWindow.g.cs
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\App.g.cs
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound_MarkupCompile.cache
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound_MarkupCompile.lref
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\MainWindow.baml
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.g.resources
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.Properties.Resources.resources
+C:\Users\pqin.PROD\Desktop\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.exe.config
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\bin\Debug\DXGridUnbound.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\MainWindow.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\App.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound_MarkupCompile.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound_MarkupCompile.lref
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\MainWindow.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.g.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\DXGridUnbound\DXGridUnbound\DXGridUnbound\obj\Debug\DXGridUnbound.csprojResolveAssemblyReference.cache

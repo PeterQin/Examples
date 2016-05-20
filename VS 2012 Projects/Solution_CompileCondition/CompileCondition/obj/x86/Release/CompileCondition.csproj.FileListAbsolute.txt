@@ -1,0 +1,8 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\bin\x86\Release\CompileConditionAssistant.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\bin\x86\Release\CompileConditionAssistant.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\x86\Release\CompileCondition.frmCondition.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\x86\Release\CompileCondition.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\x86\Release\CompileCondition.rcCondition.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\x86\Release\CompileCondition.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\x86\Release\CompileConditionAssistant.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\x86\Release\CompileConditionAssistant.pdb

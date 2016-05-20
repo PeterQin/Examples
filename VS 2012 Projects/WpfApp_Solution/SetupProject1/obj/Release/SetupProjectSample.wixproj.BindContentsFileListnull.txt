@@ -1,0 +1,2 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\Readme.txt
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\bin\Release\\WpfApp.exe

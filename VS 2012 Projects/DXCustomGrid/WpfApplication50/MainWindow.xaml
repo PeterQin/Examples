@@ -1,0 +1,77 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WpfDXGrid="clr-namespace:WpfDXGrid;assembly=WpfDXGrid" 
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+      xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core"
+         x:Class="WpfApplication50.MainWindow"
+        Title="MainWindow" Height="350" Width="456" dxc:ThemeManager.ThemeName="VS2010">
+    <Grid>
+        <dxb:BarManager x:Name="bar">
+            <dxb:BarManager.Bars>
+                <dxb:Bar x:Name="mainMenuBar" Caption="Main Menu" IsMainMenu="True">
+                    <dxb:Bar.DockInfo>
+                        <dxb:BarDockInfo ContainerType="Top"/>
+                    </dxb:Bar.DockInfo>
+                    <dxb:BarButtonItemLink BarItemName="itemCopy"/>
+                    <dxb:BarButtonItemLink BarItemName="itemPaste"/>
+                    <dxb:BarButtonItemLink BarItemName="itemUndo"/>
+                    <dxb:BarButtonItemLink BarItemName="itemRedo"/>
+                    <dxb:BarButtonItemLink BarItemName="itemDel"/>
+                    <dxb:BarSplitButtonItemLink BarItemName="itemsplit"/>
+                </dxb:Bar>
+                <dxb:Bar Caption="bar1">
+                    <dxb:Bar.DockInfo>
+                        <dxb:BarDockInfo ContainerType="Top"/>
+                    </dxb:Bar.DockInfo>
+                </dxb:Bar>
+                <dxb:Bar x:Name="statusBar" Caption="Status Bar" IsStatusBar="True">
+                    <dxb:Bar.DockInfo>
+                        <dxb:BarDockInfo ContainerType="Bottom"/>
+                    </dxb:Bar.DockInfo>
+                </dxb:Bar>
+            </dxb:BarManager.Bars>
+            <dxb:BarManager.Items>
+                <dxb:BarButtonItem x:Name="itemCopy" Content="Copy" />
+                <dxb:BarButtonItem x:Name="itemPaste" Content="Paste"  />
+                <dxb:BarButtonItem x:Name="itemUndo" Content="Undo" />
+                <dxb:BarButtonItem x:Name="itemRedo" Content="Redo"  />
+                <dxb:BarButtonItem x:Name="itemDel" Content="Del"  ItemClick="itemDel_ItemClick_1" Command="{Binding del}"/>
+                <dxb:BarSplitButtonItem x:Name="itemsplit"/>
+            </dxb:BarManager.Items>
+            <Grid>
+                <WpfDXGrid:WpfDXGrid x:Name="grid" AutoPopulateColumns="False" ItemsSource="{Binding source}">
+                  
+                    <dxb:BarManager.DXContextMenu>
+                        <dxb:PopupMenu>
+                            <dxb:PopupMenu.ItemLinks>
+                                <dxb:BarButtonItemLink BarItemName="itemCopy" />
+                                <dxb:BarButtonItemLink BarItemName="itemPaste" />
+                                <dxb:BarButtonItemLink BarItemName="itemUndo" />                              
+                            </dxb:PopupMenu.ItemLinks>                            
+                        </dxb:PopupMenu>
+                    </dxb:BarManager.DXContextMenu>
+                      <WpfDXGrid:WpfDXGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Enable">
+                                <MenuItem Header="HTML"/>
+                                <MenuItem Header="TEXT"/>
+                            </MenuItem>
+                            <MenuItem Header="Drop"/>
+                        </ContextMenu>
+                    </WpfDXGrid:WpfDXGrid.ContextMenu>
+                    <WpfDXGrid:WpfDXGrid.Columns>
+                        <dxg:GridColumn DisplayMemberBinding="{Binding id}" FieldName="id"  Header="id" ReadOnly="True" AllowFocus="False"/>
+                        <dxg:GridColumn FieldName="data" Header="data" ReadOnly="True" AllowFocus="False"/>
+                    </WpfDXGrid:WpfDXGrid.Columns>
+                    <WpfDXGrid:WpfDXGrid.View>
+                        <WpfDXGrid:DXGridView x:Name="view" MultiSelectMode="Row" SelectedListIndexes="{Binding Selection, Mode=OneWayToSource}" FocusedRowChanged="showpop_FocusedRowChanged_1" SelectionChanged="view_SelectionChanged_1"/>
+                    </WpfDXGrid:WpfDXGrid.View>
+                </WpfDXGrid:WpfDXGrid>
+            </Grid>
+        </dxb:BarManager>
+
+    </Grid>
+</Window>

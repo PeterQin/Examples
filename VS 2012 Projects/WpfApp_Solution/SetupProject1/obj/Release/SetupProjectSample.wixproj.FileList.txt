@@ -1,0 +1,6 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\SetupProject1\bin\Release\WpfApp_SetupProject.msi
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\SetupProject1\bin\Release\WpfApp_SetupProject.wixpdb
+obj\Release\Product.wixobj
+obj\Release\SetupProjectSample.wixproj.BindContentsFileListnull.txt
+obj\Release\SetupProjectSample.wixproj.BindOutputsFileListnull.txt
+obj\Release\SetupProjectSample.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,9 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\FM\FM\bin\Debug\FM.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\FM\FM\bin\Debug\FM.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\FM\FM\obj\Debug\FM.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\FM\FM\obj\Debug\FM.frmFM.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\FM\FM\obj\Debug\FM.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\FM\FM\obj\Debug\FM.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\FM\FM\obj\Debug\FM.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\FM\FM\obj\Debug\FM.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FM\FM\bin\Debug\FM.exe.config

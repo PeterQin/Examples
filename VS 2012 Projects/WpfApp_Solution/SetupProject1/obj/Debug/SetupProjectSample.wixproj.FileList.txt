@@ -1,0 +1,6 @@
+obj\Debug\Product.wixobj
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApp_Solution\SetupProject1\bin\Debug\WpfApp_SetupProject.msi
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApp_Solution\SetupProject1\bin\Debug\WpfApp_SetupProject.wixpdb
+obj\Debug\SetupProjectSample.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupProjectSample.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupProjectSample.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapSource x:Key="qso_down">Images/qso_ArrowDown_Black.png</BitmapSource>
+    <BitmapSource x:Key="qso_down_disable">Images/qso_ArrowDown_Grey.png</BitmapSource>
+    <BitmapSource x:Key="qso_left_x2">Images/qso_ArrowLeft_Double.png</BitmapSource>
+    <BitmapSource x:Key="qso_right">Images/qso_ArrowRight_Black.png</BitmapSource>
+    <BitmapSource x:Key="qso_right_disable">Images/qso_ArrowRight_Grey.png</BitmapSource>
+    <BitmapSource x:Key="qso_right_x2">Images/qso_ArrowRight_Double.png</BitmapSource>
+</ResourceDictionary>

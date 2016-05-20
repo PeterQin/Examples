@@ -1,0 +1,14 @@
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\bin\Debug\MainTab.dll
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\bin\Debug\MainTab.pdb
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\MainTab.csprojResolveAssemblyReference.cache
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\MainTab_MarkupCompile.cache
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\MainTab_MarkupCompile.lref
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\Themes\Generic.baml
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\MainTab.g.resources
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\MainTab.Properties.Resources.resources
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\MainTab.csproj.GenerateResource.Cache
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\MainTab.dll
+c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\obj\Debug\MainTab.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\bin\Debug\DevExpress.Xpf.Themes.OptimizerMain.v12.1.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\MainTab\MainTab\bin\Debug\DevExpress.Xpf.Themes.OptimizerMain.v12.1.pdb

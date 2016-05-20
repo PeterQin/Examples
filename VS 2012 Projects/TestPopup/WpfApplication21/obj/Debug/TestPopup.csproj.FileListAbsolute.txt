@@ -1,0 +1,14 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\WpfApplication21.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\WpfApplication21.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\bin\Debug\WpfApplication21.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\bin\Debug\WpfApplication21.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\TestPopup.csprojResolveAssemblyReference.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\MainWindow.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\App.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\WpfApplication21_MarkupCompile.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\WpfApplication21_MarkupCompile.lref
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\MainWindow.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\WpfApplication21.g.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\WpfApplication21.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\TestPopup\WpfApplication21\obj\Debug\TestPopup.csproj.GenerateResource.Cache

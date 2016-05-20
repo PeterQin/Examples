@@ -1,0 +1,75 @@
+﻿<Window x:Class="NavigationPanelSample.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:dxnt="http://schemas.devexpress.com/winfx/2008/xaml/navbar/themekeys"
+        xmlns:dxcn="clr-namespace:DevExpress.Xpf.Core.Native;assembly=DevExpress.Xpf.Core.v12.2" 
+        xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts"
+        xmlns:local="clr-namespace:NavigationPanelSample"
+        Title="Window3" Height="348" Width="422" Background="White">
+    <Window.Resources>
+        <local:BoolToVisible x:Key="bolConv"/>
+    </Window.Resources>
+    <Grid>
+        <Grid x:Name="grid" Background="Red"/>
+        <ItemsControl x:Name="itemcontrol" Background="White">
+            <ItemsControl.Items>
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Command="{Binding ClickCommand}">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Margin="3" Cursor="Hand">
+                                <Border.Style>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Trigger.Setters>
+                                                    <Setter Property="Background" Value="#FFB3E1EC"/>
+                                                </Trigger.Setters>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Border.Style>
+                                <Grid x:Name="grid">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <dxc:ChartControl IsTabStop="False" Grid.Row="0" x:Name="chart" BorderThickness="0" Background="{Binding Background, ElementName=grid, Mode=OneWay}" Padding="0" Width="100" Height="100">
+                                        <dxc:SimpleDiagram2D>
+                                            <dxc:PieSeries2D HoleRadiusPercent="0" DataSource="{Binding PercentDisplay}" 
+                                         ArgumentDataMember="Argument" ValueDataMember="Percentage"  Rotation="90">
+                                                <dxc:PieSeries2D.Label>
+                                                    <dxc:SeriesLabel Visible="False" dxc:PieSeries.LabelPosition="Inside"/>
+                                                </dxc:PieSeries2D.Label>
+                                                <dxc:PieSeries2D.Model>
+                                                    <dxc:BorderlessFlatPie2DModel/>
+                                                </dxc:PieSeries2D.Model>
+                                            </dxc:PieSeries2D>
+                                        </dxc:SimpleDiagram2D>
+                                    </dxc:ChartControl>
+                                    <TextBlock Grid.Row="1" HorizontalAlignment="Center" Width="200" Height="65" TextWrapping="WrapWithOverflow">
+                        <Run Text="{Binding Percent, StringFormat={}{0:P0}}"/>
+                        <Run Text="{Binding Name}"/>
+                        <Run Text=" ("/>
+                        <Run Text="{Binding NumOfSQL}"/>
+                        <Run Text=" SQL)"/>
+                                    </TextBlock>
+                                </Grid>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button HorizontalAlignment="Left" Margin="46,28,0,0" VerticalAlignment="Top" Width="75" Height="22" Content="click 1" Command="{Binding ClickCommand}"/>
+                <Grid>
+                    <Button Focusable="True" IsTabStop="True" x:Name="CellItem" Content="+" Width="75" Height="75" Command="{Binding ViewChartDetailCommand, Mode=OneWay}" CommandParameter="{Binding DataContext, RelativeSource={RelativeSource Self}}">
+                    </Button>
+                </Grid>
+                <CheckBox Content="check"/>
+            </ItemsControl.Items>
+        </ItemsControl>
+
+        
+
+    </Grid>
+</Window>

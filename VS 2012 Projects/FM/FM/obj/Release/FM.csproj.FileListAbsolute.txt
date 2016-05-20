@@ -1,0 +1,7 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FM\FM\bin\Release\FM.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FM\FM\bin\Release\FM.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FM\FM\obj\Release\FM.frmFM.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FM\FM\obj\Release\FM.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FM\FM\obj\Release\FM.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FM\FM\obj\Release\FM.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FM\FM\obj\Release\FM.pdb

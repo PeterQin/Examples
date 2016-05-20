@@ -1,0 +1,9 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\Debug\CompileCondition.frmCondition.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\Debug\CompileCondition.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\Debug\CompileCondition.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\Debug\CompileCondition.rcCondition.resources
+C:\Users\pqin.PROD\documents\visual studio 2012\Projects\Solution_CompileCondition\CompileCondition\bin\Debug\CompileConditionAssistant.exe
+C:\Users\pqin.PROD\documents\visual studio 2012\Projects\Solution_CompileCondition\CompileCondition\bin\Debug\CompileConditionAssistant.pdb
+C:\Users\pqin.PROD\documents\visual studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\Debug\CompileConditionAssistant.exe
+C:\Users\pqin.PROD\documents\visual studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\Debug\CompileConditionAssistant.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\Solution_CompileCondition\CompileCondition\obj\Debug\CompileCondition.csprojResolveAssemblyReference.cache

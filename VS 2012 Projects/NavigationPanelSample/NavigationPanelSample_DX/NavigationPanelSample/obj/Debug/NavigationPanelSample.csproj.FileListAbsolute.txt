@@ -1,0 +1,17 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\bin\Debug\NavigationPanelSample.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\bin\Debug\NavigationPanelSample.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\MainWindow.baml
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\MainWindow.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\App.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample_MarkupCompile.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample.g.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample.exe.licenses
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\Window1.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\Window1.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\NavigationPanelSample\NavigationPanelSample\obj\Debug\NavigationPanelSample_MarkupCompile.lref

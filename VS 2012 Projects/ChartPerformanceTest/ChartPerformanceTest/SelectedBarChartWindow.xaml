@@ -1,0 +1,47 @@
+﻿<Window x:Class="ChartPerformanceTest.SelectedBarChartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts" 
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        Title="2D Bar Chart (Test Select Bar)" Height="350" Width="525" WindowState="Maximized" dx:ThemeManager.ThemeName="Office2013">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="6">
+            <Button Content="Load Data" Click="Button_Click" MinWidth="100"/>
+            <Button Content="Select" x:Name="btnSelect" MinWidth="100" Margin="6,0,0,0" Click="btnSelect_Click"/>
+            <Button Content="ChangeValue" x:Name="btnChangeValue" MinWidth="100" Margin="6,0,0,0" Click="btnChangeValue_Click"/>
+            <Button Content="Clear" x:Name="btnClear" MinWidth="100" Margin="6,0,0,0" Click="btnClear_Click"/>
+            <Button Content="Show" x:Name="btnShow" MinWidth="100" Margin="6,0,0,0" Click="btnShow_Click"/>
+        </StackPanel>
+        <dxc:ChartControl x:Name="chart" CrosshairEnabled="False" Grid.Row="1" CustomDrawSeriesPoint="chart_CustomDrawSeriesPoint">
+            <dxc:XYDiagram2D x:Name="diagram">
+                <dxc:XYDiagram2D.AxisX>
+                    <dxc:AxisX2D x:Name="chartAxisX" TickmarksMinorVisible="False" TickmarksVisible="False">
+                        <dxc:AxisX2D.Label>
+                            <dxc:AxisLabel Visible="True"/>
+                        </dxc:AxisX2D.Label>
+                    </dxc:AxisX2D>
+                </dxc:XYDiagram2D.AxisX>
+                <dxc:XYDiagram2D.NavigationOptions>
+                    <dxc:NavigationOptions UseMouse="False"/>
+                </dxc:XYDiagram2D.NavigationOptions>
+
+                <dxc:BarSideBySideSeries2D x:Name="seriesTop" DisplayName="Test Data"                                        
+                                           ArgumentDataMember="ID" 
+                                           ValueDataMember="Value"                                           
+                                           DataSource="{Binding TestDataSource, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                           BarWidth="0.8"
+                                           BorderThickness="0"
+                                           ArgumentScaleType="Numerical"
+                                           >
+                    <dxc:BarSideBySideSeries2D.Model>
+                        <dxc:BorderlessSimpleBar2DModel/>
+                    </dxc:BarSideBySideSeries2D.Model>
+                </dxc:BarSideBySideSeries2D>
+            </dxc:XYDiagram2D>
+        </dxc:ChartControl>
+    </Grid>
+</Window>

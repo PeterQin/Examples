@@ -1,0 +1,17 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\bin\Debug\WpfApplication25.exe.config
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\WpfApplication25.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\App.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\WpfApplication25_MarkupCompile.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\bin\Debug\WpfApplication25.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\bin\Debug\WpfApplication25.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\MainWindow.baml
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\MainWindow.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\WpfApplication25.g.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\WpfApplication25.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\WpfApplication25.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\WpfApplication25.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\WpfApplication25.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\bin\Debug\WpfApplicationFramework.dll
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WpfApplication25\WpfApplication25\bin\Debug\WpfApplicationFramework.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApplication25\WpfApplication25\obj\Debug\WpfApplication25_MarkupCompile.lref

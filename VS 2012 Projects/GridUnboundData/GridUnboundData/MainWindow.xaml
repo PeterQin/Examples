@@ -1,0 +1,48 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:local="clr-namespace:GridUnboundData"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="GridUnboundData.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="ColumnStyle" TargetType="{x:Type dxg:GridColumn}">
+            <Setter Property="FilterPopupMode" Value="CheckedList"/>
+            <Setter Property="FieldName" Value="{Binding FieldName}"/>
+        </Style>
+        <local:ColumnTemplateSelector x:Key="ColumnTemplateSelector"/>
+
+        <DataTemplate x:Key="DefaultColumnTemplate">
+            <ContentControl>
+                <dxg:GridColumn FieldName="{Binding FieldName}" Header="{Binding Caption}" UnboundType ="String"/>
+            </ContentControl>
+        </DataTemplate>
+        <DataTemplate x:Key="ComboColumnTemplate">
+            <ContentControl>
+                <dxg:GridColumn FieldName="{Binding FieldName}">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:ComboBoxEditSettings ItemsSource="{Binding Source}" IsTextEditable="False"/>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+            </ContentControl>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+
+        <dxg:GridControl x:Name="grid" 
+    		ItemsSource="{Binding Source}" 
+    		ColumnsSource="{Binding Columns}" Margin="0,0,0,34" AutoPopulateColumns="False" CustomUnboundColumnData="grid_CustomUnboundColumnData" >
+            <dxg:GridControl.ColumnGeneratorTemplateSelector>
+                <StaticResource ResourceKey="ColumnTemplateSelector"/>
+            </dxg:GridControl.ColumnGeneratorTemplateSelector>
+            <dxg:GridControl.View>
+                <dxg:TableView x:Name="tableView1" 
+    				AutoWidth="True" 
+    				NavigationStyle="Cell" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="197,291,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

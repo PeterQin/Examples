@@ -1,0 +1,1 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\SyntaxEditorTest\SyntaxEditorTest\bin\Debug\SyntaxEditorTest.exe.config

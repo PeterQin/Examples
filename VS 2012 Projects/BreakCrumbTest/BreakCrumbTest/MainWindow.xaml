@@ -1,0 +1,27 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:BreakCrumbTest" 
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:dc="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        x:Class="BreakCrumbTest.MainWindow"
+        Title="MainWindow" Height="350" Width="525" dc:ThemeManager.ThemeName="Seven">
+    <Grid Margin="6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--<local:BreakCrumb HorizontalAlignment="Left" Height="100" Margin="97,56,0,0" VerticalAlignment="Top" Width="363" />-->
+        <StackPanel x:Name="tstack" Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Left" Height="100" Margin="71,118,0,0" VerticalAlignment="Top" Width="405">
+            <Button Content="test add" Click="Button_Click_4"/>
+            <Button Content="test remove" Click="Button_Click_5"/>
+            <Button Content="test Parent ChildList" Width="120" Click="Button_Click_6"/>
+            <Button Content="test rename" Width="120" Click="Button_Click_7"/>
+        </StackPanel>
+        <local:BreadCrumb x:Name="bread" ItemSource="{Binding Items, Mode=TwoWay}" BorderBrush="Black" BorderThickness="0" Background="#FFEDEEF0" Grid.Row="0" />
+        <TextBlock  HorizontalAlignment="Left" Margin="194,38,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ElementName=bread, Path=ActivedItem, Mode=TwoWay}" VerticalAlignment="Top" Height="28" Width="169"/>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="10,38,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Trace by Dependency property:" VerticalAlignment="Top" Width="170"/>
+
+    </Grid>
+</Window>

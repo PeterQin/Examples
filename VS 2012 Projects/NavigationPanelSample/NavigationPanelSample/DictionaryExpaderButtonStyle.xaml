@@ -1,0 +1,46 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="ExpanderButtonStyle" TargetType="ToggleButton">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Polygon Grid.Column="0" x:Name="triangle" Points="0,0 4.2,4, 0,8" Stroke="Gray" StrokeThickness="1" Fill="White" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top">
+                            <Polygon.RenderTransform>
+                                <TransformGroup>
+                                    <RotateTransform x:Name="transform" Angle="0" CenterY="0"/>
+                                </TransformGroup>
+                            </Polygon.RenderTransform>
+                        </Polygon>
+                        <Grid x:Name="gridContent" Visibility="Collapsed" Grid.Column="1">
+                            <ContentPresenter HorizontalAlignment="Left" Margin="4,0,0,0" RecognizesAccessKey="True" SnapsToDevicePixels="True" VerticalAlignment="Center"/>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="RenderTransform" TargetName="triangle">
+                                <Setter.Value>
+                                    <TransformGroup>
+                                        <RotateTransform Angle="45" CenterY="-2" CenterX="-2"/>
+                                    </TransformGroup>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Stroke" TargetName="triangle" Value="#FF464545"/>
+                            <Setter Property="StrokeThickness" TargetName="triangle" Value="0.8"/>
+                            <Setter Property="Fill" TargetName="triangle" Value="#FF464545"/>
+                            <Setter Property="Visibility" TargetName="gridContent" Value="Visible"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" TargetName="triangle" Value="#FF82DFFB"/>
+                            <Setter Property="Stroke" TargetName="triangle" Value="#FF1CC4F7"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

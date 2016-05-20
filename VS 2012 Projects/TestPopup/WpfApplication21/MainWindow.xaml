@@ -1,0 +1,42 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        xmlns:local="clr-namespace:WpfApplication21"
+        x:Class="WpfApplication21.MainWindow"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <dxb:BarManager>
+            <dxb:BarManager.Items>
+                <dxb:BarButtonItem x:Name="item1" Content="item 1" ItemClick="item1_ItemClick"/>
+                <dxb:BarButtonItem x:Name="item2" Content="item 2" ItemClick="item2_ItemClick"/>
+            </dxb:BarManager.Items>
+            <Grid>
+                <dxg:GridControl Name="grid" ItemsSource="{Binding MySource, Mode=OneWay}">
+                    <dxg:GridControl.Columns>
+                        <dxg:GridColumn Header="ID" Name="colID" FieldName="ID" AllowSorting="True" AllowGrouping="True" AllowBestFit="False" AllowSearchPanel="False"/>
+                        <dxg:GridColumn  Header="Name" Name="colName" FieldName="Name" />
+                    </dxg:GridControl.Columns>
+                    <dxg:GridControl.View>
+                        <dxg:TableView x:Name="view" ShowTotalSummary="True" ShowGridMenu="view_ShowGridMenu">
+                            <dxg:TableView.RowCellMenuCustomizations>
+                                <dxb:BarSubItem Name="subItemSettings" Content="Settings">
+                                </dxb:BarSubItem>
+                            </dxg:TableView.RowCellMenuCustomizations>
+                        </dxg:TableView>
+                        <!--dxg:TreeListView x:Name="view">
+                            <dxg:TreeListView.RowCellMenuCustomizations>
+                                <dxb:BarSubItem Name="subItemSettings" Content="Settings">
+                                </dxb:BarSubItem>
+                            </dxg:TreeListView.RowCellMenuCustomizations>
+                        </dxg:TreeListView>-->
+                    </dxg:GridControl.View>
+                    <!--<local:DXPrintableControlPopupExtension.AttachDefaultPopupItems>
+                        <local:DXPrintableControlDefaultPopupItemsOption AttachDefaultItems="True" AttachSettingItem="True"/>
+                    </local:DXPrintableControlPopupExtension.AttachDefaultPopupItems>-->
+                </dxg:GridControl>
+            </Grid>
+        </dxb:BarManager>
+    </Grid>
+</Window>

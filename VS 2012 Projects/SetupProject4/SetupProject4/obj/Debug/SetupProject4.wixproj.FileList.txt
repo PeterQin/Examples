@@ -1,0 +1,6 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\SetupProject4\SetupProject4\bin\Debug\SetupProject4.msi
+c:\users\pqin.prod\documents\visual studio 2012\Projects\SetupProject4\SetupProject4\bin\Debug\SetupProject4.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\SetupProject4.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupProject4.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupProject4.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,16 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\bin\Debug\WPFDispatcher.exe.config
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\bin\Debug\WPFDispatcher.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\bin\Debug\WPFDispatcher.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\MainWindow.baml
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\MainWindow.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\App.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher_MarkupCompile.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher.g.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher.ucWin.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\WPFDispatcher_MarkupCompile.lref
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WPFDispatcher\WPFDispatcher\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -1,0 +1,8 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TuningSolution_UpdateDXSkinAssemblyInfo\UpdateDXSkinAssemblyInfo\bin\Debug\UpdateDXSkinAssemblyInfo.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TuningSolution_UpdateDXSkinAssemblyInfo\UpdateDXSkinAssemblyInfo\bin\Debug\UpdateDXSkinAssemblyInfo.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TuningSolution_UpdateDXSkinAssemblyInfo\UpdateDXSkinAssemblyInfo\obj\Debug\UpdateDXSkinAssemblyInfo.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TuningSolution_UpdateDXSkinAssemblyInfo\UpdateDXSkinAssemblyInfo\obj\Debug\UpdateDXSkinAssemblyInfo.Form1.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TuningSolution_UpdateDXSkinAssemblyInfo\UpdateDXSkinAssemblyInfo\obj\Debug\UpdateDXSkinAssemblyInfo.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TuningSolution_UpdateDXSkinAssemblyInfo\UpdateDXSkinAssemblyInfo\obj\Debug\UpdateDXSkinAssemblyInfo.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TuningSolution_UpdateDXSkinAssemblyInfo\UpdateDXSkinAssemblyInfo\obj\Debug\UpdateDXSkinAssemblyInfo.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TuningSolution_UpdateDXSkinAssemblyInfo\UpdateDXSkinAssemblyInfo\obj\Debug\UpdateDXSkinAssemblyInfo.pdb

@@ -1,0 +1,12 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\bin\Debug\WebProxy.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\bin\Debug\WebProxy.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\WebProxy.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\MainWindow.baml
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\MainWindow.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\App.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\WebProxy_MarkupCompile.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\WebProxy.g.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\WebProxy.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\WebProxy.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\WebProxy.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\WebProxy\WebProxy\obj\Debug\WebProxy.pdb

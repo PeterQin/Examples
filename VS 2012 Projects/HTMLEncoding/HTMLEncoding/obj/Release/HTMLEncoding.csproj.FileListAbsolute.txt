@@ -1,0 +1,15 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\bin\Release\HTMLEncoding.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\bin\Release\HTMLEncoding.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.frmHTMLEncode.resources
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.exe
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.pdb
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HTMLEncoding\HTMLEncoding\bin\Release\HTMLEncoding.exe
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HTMLEncoding\HTMLEncoding\bin\Release\HTMLEncoding.pdb
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.csprojResolveAssemblyReference.cache
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.frmHTMLEncode.resources
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.Properties.Resources.resources
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Release\HTMLEncoding.csproj.GenerateResource.Cache

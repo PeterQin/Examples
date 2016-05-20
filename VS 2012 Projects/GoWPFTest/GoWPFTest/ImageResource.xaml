@@ -1,0 +1,54 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Icon-->
+    <BitmapSource x:Key="ico_Plan">Images/Plan.ico</BitmapSource>
+    <BitmapSource x:Key="ico_Animation1">Images/Animation1.ico</BitmapSource>
+    <BitmapSource x:Key="ico_Simple">Images/Simple.ico</BitmapSource>
+
+    <!--Image-->
+    <BitmapSource x:Key="img_Select">Images/Select.ico</BitmapSource>
+    <BitmapSource x:Key="img_MergeJoin">Images/MERGEJOIN.ico</BitmapSource>
+    <BitmapSource x:Key="img_ClusteredIndexScan">Images/CLUSTEREDINDEXSCAN.ico</BitmapSource>
+    <BitmapSource x:Key="img_Sort">Images/SORT.ico</BitmapSource>
+
+    <BitmapSource x:Key="img_Index">Images/qso_index.png</BitmapSource>
+    <BitmapSource x:Key="img_NodeDetail">Images/NodeDetail.png</BitmapSource>
+
+    <!--Toad-->
+    <BitmapSource x:Key="S_ClusteredIndexScan">Images/S_ClusteredIndexScan.png</BitmapSource>
+    <BitmapSource x:Key="S_ClusteredIndexSeek">Images/S_ClusteredIndexSeek.png</BitmapSource>
+    <BitmapSource x:Key="S_IndexSeek">Images/S_IndexSeek.png</BitmapSource>
+    <BitmapSource x:Key="S_MergeJoin">Images/S_MergeJoin.png</BitmapSource>
+    <BitmapSource x:Key="S_NestedLoop">Images/S_NestedLoop.png</BitmapSource>
+    <BitmapSource x:Key="S_RIDLookup">Images/S_RIDLookup.png</BitmapSource>
+    <BitmapSource x:Key="S_RowCountSpool">Images/S_RowCountSpool.png</BitmapSource>
+    <BitmapSource x:Key="S_Select">Images/S_Select.png</BitmapSource>
+    <BitmapSource x:Key="S_Sort">Images/S_Sort.png</BitmapSource>
+
+    <!--Simple Black-->
+    <BitmapSource x:Key="B_ClusteredIndexScan">Images/SimpleBlack/B_ClusteredIndexScan.png</BitmapSource>
+    <BitmapSource x:Key="B_ClusteredIndexSeek">Images/SimpleBlack/B_ClusteredIndexSeek.png</BitmapSource>
+    <BitmapSource x:Key="B_IndexSeek">Images/SimpleBlack/B_IndexSeek.png</BitmapSource>
+    <BitmapSource x:Key="B_MergeJoin">Images/SimpleBlack/B_MergeJoin.png</BitmapSource>
+    <BitmapSource x:Key="B_NestedLoop">Images/SimpleBlack/B_NestedLoop.png</BitmapSource>
+    <BitmapSource x:Key="B_RIDLookup">Images/SimpleBlack/B_RIDLookup.png</BitmapSource>
+    <BitmapSource x:Key="B_RowCountSpool">Images/SimpleBlack/B_RowCountSpool.png</BitmapSource>
+    <BitmapSource x:Key="B_Select">Images/SimpleBlack/B_Select.png</BitmapSource>
+    <BitmapSource x:Key="B_Sort">Images/SimpleBlack/B_Sort.png</BitmapSource>
+
+    <!--QExplain-->
+    <BitmapSource x:Key="Q_ClusteredIndexScan">Images/QExplain/Q_ClusteredIndexScan.ico</BitmapSource>
+    <BitmapSource x:Key="Q_ClusteredIndexSeek">Images/QExplain/Q_ClusteredIndexSeek.ico</BitmapSource>
+    <BitmapSource x:Key="Q_IndexSeek">Images/QExplain/Q_IndexSeek.ico</BitmapSource>
+    <BitmapSource x:Key="Q_MergeJoin">Images/QExplain/Q_MergeJoin.ico</BitmapSource>
+    <BitmapSource x:Key="Q_NestedLoop">Images/QExplain/Q_NestedLoop.ico</BitmapSource>
+    <BitmapSource x:Key="Q_RIDLookup">Images/QExplain/Q_RIDLookup.ico</BitmapSource>
+    <BitmapSource x:Key="Q_RowCountSpool">Images/QExplain/Q_RowCountSpool.ico</BitmapSource>
+    <BitmapSource x:Key="Q_Select">Images/QExplain/Q_Select.ico</BitmapSource>
+    <BitmapSource x:Key="Q_Sort">Images/QExplain/Q_Sort.ico</BitmapSource>
+    <BitmapSource x:Key="Q_PARALLELISM">Images/QExplain/Q_PARALLELISM.ico</BitmapSource>
+    <BitmapSource x:Key="Q_HashMatch">Images/QExplain/Q_HASHMATCH.ico</BitmapSource>
+    <BitmapSource x:Key="Q_Bitmap">Images/QExplain/Q_BITMAP.ico</BitmapSource>
+    <BitmapSource x:Key="Q_TableScan">Images/QExplain/Q_TABLESCAN.ico</BitmapSource>
+    
+</ResourceDictionary>

@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="WpfApplication43.WaitingView3"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="40">
+    <UserControl.Resources>
+        <Storyboard x:Key="Storyboard_MoveLine2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="ellipse" RepeatBehavior="Forever">
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-9"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard_MoveLine2}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+    <Grid>
+        <Ellipse x:Name="ellipse" Stroke="#FF276D70" StrokeThickness="3" StrokeDashArray="5"/>    
+    </Grid>
+</UserControl>

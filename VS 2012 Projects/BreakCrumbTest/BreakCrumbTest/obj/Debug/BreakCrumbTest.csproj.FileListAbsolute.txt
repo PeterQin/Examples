@@ -1,0 +1,17 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\bin\Debug\BreakCrumbTest.exe.config
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\bin\Debug\BreakCrumbTest.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\bin\Debug\BreakCrumbTest.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\Themes\BreadCrumbImages.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\MainWindow.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\App.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\BreakCrumbTest_MarkupCompile.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\BreakCrumbTest_MarkupCompile.lref
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\MainWindow.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\Themes\Generic.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\BreakCrumbTest.g.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\BreakCrumbTest.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\BreakCrumbTest.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\BreakCrumbTest.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\BreakCrumbTest.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\BreakCrumbTest\BreakCrumbTest\obj\Debug\BreakCrumbTest.csprojResolveAssemblyReference.cache

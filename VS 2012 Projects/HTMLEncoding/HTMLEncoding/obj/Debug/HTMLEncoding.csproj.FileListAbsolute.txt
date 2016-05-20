@@ -1,0 +1,8 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\bin\Debug\HTMLEncoding.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\bin\Debug\HTMLEncoding.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Debug\HTMLEncoding.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Debug\HTMLEncoding.Form1.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Debug\HTMLEncoding.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Debug\HTMLEncoding.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Debug\HTMLEncoding.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HTMLEncoding\HTMLEncoding\obj\Debug\HTMLEncoding.pdb

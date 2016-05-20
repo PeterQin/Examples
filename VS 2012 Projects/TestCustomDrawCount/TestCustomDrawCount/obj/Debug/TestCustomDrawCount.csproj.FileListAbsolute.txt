@@ -1,0 +1,11 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\bin\Debug\TestCustomDrawCount.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\bin\Debug\TestCustomDrawCount.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\MainWindow.baml
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\MainWindow.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\App.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\TestCustomDrawCount_MarkupCompile.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\TestCustomDrawCount.g.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\TestCustomDrawCount.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\TestCustomDrawCount.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\TestCustomDrawCount.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\TestCustomDrawCount\TestCustomDrawCount\obj\Debug\TestCustomDrawCount.pdb

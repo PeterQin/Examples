@@ -1,0 +1,2 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\SetupProject4\SetupProject4\bin\Debug\SetupProject4.msi
+c:\users\pqin.prod\documents\visual studio 2012\Projects\SetupProject4\SetupProject4\bin\Debug\SetupProject4.wixpdb

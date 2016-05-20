@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" x:Class="WpfApplication3.Window1"
+        Title="Window1" Height="300" Width="405">
+    <Grid Margin="0,0,31,0">
+        
+        <dx:DXTabControl Margin="25,41,44,71">
+            <dx:DXTabItem Header="dxTabItem">
+                <Grid Background="Transparent"/>
+            </dx:DXTabItem>
+            <dx:DXTabItem Header="dxTabItem">
+                <Grid Background="Transparent"/>
+            </dx:DXTabItem>
+            <dx:DXTabItem Header="dxTabItem">
+                <Grid Background="Transparent"/>
+            </dx:DXTabItem>
+        </dx:DXTabControl>
+
+    </Grid>
+</Window>

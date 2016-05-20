@@ -1,0 +1,1091 @@
+﻿<Window x:Class="GoWPFTest.MainWindow"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:go="http://schemas.nwoods.com/GoXam"
+        xmlns:local="clr-namespace:GoWPFTest"
+        xmlns:corlib="clr-namespace:System;assembly=mscorlib"
+        
+          
+        
+        Title="Trial Style 1" Height="884" Width="1500" 
+        x:Name="win" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+
+        <corlib:Double x:Key="nodeHeight">103</corlib:Double>
+        <corlib:Double x:Key="OpacityValue">0.3</corlib:Double>
+
+        <Style x:Key="ExpanderUpHeaderStyle" TargetType="{x:Type ToggleButton}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
+                        <Border Padding="{TemplateBinding Padding}">
+                            <Grid Background="Transparent" SnapsToDevicePixels="False">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="19"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid>
+                                    <Grid.LayoutTransform>
+                                        <TransformGroup>
+                                            <TransformGroup.Children>
+                                                <TransformCollection>
+                                                    <RotateTransform Angle="180"/>
+                                                </TransformCollection>
+                                            </TransformGroup.Children>
+                                        </TransformGroup>
+                                    </Grid.LayoutTransform>
+                                    <Ellipse x:Name="circle" HorizontalAlignment="Center" StrokeThickness="1.5" Height="19" Stroke="White" VerticalAlignment="Center" Width="19"/>
+                                    <Path x:Name="arrow" Data="M 1,4.5  L 4.5,1  L 8,4.5" HorizontalAlignment="Center" SnapsToDevicePixels="false" Stroke="#FF2B2B2B" StrokeThickness="2" VerticalAlignment="Center"/>
+                                </Grid>
+                                <ContentPresenter Grid.Column="1" HorizontalAlignment="Left" Margin="4,0,0,0" RecognizesAccessKey="True" SnapsToDevicePixels="True" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="true">
+                                <Setter Property="Data" TargetName="arrow" Value="M 1,1.5 L 4.5,5 L 8,1.5"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Stroke" TargetName="circle" Value="#FF21BB28"/>
+                                <!--<Setter Property="Stroke" TargetName="arrow" Value="White"/>-->
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Stroke" TargetName="circle" Value="#FF4B6856"/>
+                                <Setter Property="StrokeThickness" TargetName="circle" Value="1.5"/>
+                                <Setter Property="Stroke" TargetName="arrow" Value="#FF2FE879"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <local:BooleanToVisibilityConverterInvert x:Key="bolToVisibleInvert"/>
+
+        <go:BooleanStringConverter x:Key="theButtonConverter" TrueString="-" FalseString="+" />
+
+        <BooleanToVisibilityConverter x:Key="boolToVisibleConver"/>
+
+        <Style x:Key="ExpanderLeftHeaderStyle" TargetType="{x:Type ToggleButton}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
+                        <Border Padding="{TemplateBinding Padding}">
+                            <Grid Background="Transparent" SnapsToDevicePixels="False">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="19"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid>
+                                    <Grid.LayoutTransform>
+                                        <TransformGroup>
+                                            <TransformGroup.Children>
+                                                <TransformCollection>
+                                                    <RotateTransform Angle="90"/>
+                                                </TransformCollection>
+                                            </TransformGroup.Children>
+                                        </TransformGroup>
+                                    </Grid.LayoutTransform>
+                                    <Ellipse x:Name="circle" HorizontalAlignment="Center" Height="19" Stroke="DarkGray" VerticalAlignment="Center" Width="19"/>
+                                    <Path x:Name="arrow" Data="M 1,4.5  L 4.5,1  L 8,4.5" HorizontalAlignment="Center" SnapsToDevicePixels="false" Stroke="#666" StrokeThickness="2" VerticalAlignment="Center"/>
+                                </Grid>
+                                <ContentPresenter HorizontalAlignment="Center" Margin="0,4,0,0" Grid.Row="1" RecognizesAccessKey="True" SnapsToDevicePixels="True" VerticalAlignment="Top"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="true">
+                                <Setter Property="Data" TargetName="arrow" Value="M 1,1.5 L 4.5,5 L 8,1.5"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Stroke" TargetName="circle" Value="#FF3C7FB1"/>
+                                <Setter Property="Stroke" TargetName="arrow" Value="#222"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Stroke" TargetName="circle" Value="#FF526C7B"/>
+                                <Setter Property="StrokeThickness" TargetName="circle" Value="1.5"/>
+                                <Setter Property="Stroke" TargetName="arrow" Value="#FF003366"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <ControlTemplate x:Key="nodeNormalTemplate2" TargetType="ContentControl">
+            <Grid>
+                <Border x:Name="nodeContent" BorderBrush="Transparent" BorderThickness="1" MinWidth="75">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Margin="0,14,0,0" Text="{Binding Path=Data.Cost, Mode=OneWay}" Background="{Binding Data.CostColor, Mode=OneWay}" HorizontalAlignment="Center"/>
+                        <Grid Grid.Row="1">
+                            <Border x:Name="border" BorderBrush="Transparent" HorizontalAlignment="Center" go:Node.PortId="port_image">
+                                <Image Width="24" Height="24" Source="{Binding Data.ImageSource, Mode=OneWay}" Margin="9"/>
+                            </Border>
+                        </Grid>
+
+                        <TextBlock Grid.Row="2" Text="{Binding Path=Data.Operation, Mode=OneWay}" FontSize="13" Background="{Binding Data.OperationColor, Mode=OneWay}" HorizontalAlignment="Center" />
+                        <TextBlock Grid.Row="3" Text="{Binding Path=Data.OperationData, Mode=OneWay}"  FontSize="13" HorizontalAlignment="Center" />
+                    </Grid>
+                </Border>
+            </Grid>
+            <ControlTemplate.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0:0:0.1" Value="#FF21BB28"/>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0:0:0.1" Value="Transparent"/>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="nodeTableAccessTemplate2" TargetType="ContentControl">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="{Binding Path=Data.Cost, Mode=OneWay}" Margin="0,-16,0,0" Background="{Binding Data.CostColor, Mode=OneWay}" HorizontalAlignment="Center"/>
+                <Border Grid.Row="1" Background="White" BorderBrush="#FF43ADF5" BorderThickness="1" CornerRadius="1" 
+                     go:Node.PortId="port_image">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image x:Name="img" Visibility="Visible" Width="14" Height="14" Source="{Binding Data.ImageSource, Mode=OneWay}" Grid.Column="0" Margin="6,0,0,0"/>
+                            <TextBlock Margin="6" Grid.Column="1" HorizontalAlignment="Center" >
+                                <Run FontWeight="Bold" Text="{Binding Data.Operation, Mode=OneWay, StringFormat='{}{0}:'}"/>
+                                <Run Text="{Binding Data.OperationData, Mode=OneWay}"/>
+                            </TextBlock>
+                            <ToggleButton x:Name="toggle" Grid.Column="2" IsChecked="False" Style="{StaticResource ExpanderUpHeaderStyle}"/>
+                        </Grid>
+                        <ListView BorderThickness="0,1,0,0" BorderBrush="LightGray" Grid.Row="1" Visibility="{Binding Path=IsChecked, ElementName=toggle, Mode=OneWay, Converter={StaticResource boolToVisibleConver}}" Background="White" HorizontalAlignment="Stretch" ItemsSource="{Binding Path=Data.Columns}">
+                            <ListView.View>
+                                <GridView>
+                                    <GridView.Columns>
+                                        <GridViewColumn>
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Grid>
+                                                        <Image Source="Images\qso_add.png" Width="16" Height="16" Visibility="{Binding Path=IsKey, Converter={StaticResource boolToVisibleConver}}"/>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Column"  DisplayMemberBinding="{Binding Path=Name}" />
+                                        <GridViewColumn Header="Type"  DisplayMemberBinding="{Binding Path=DataType}"/>
+                                    </GridView.Columns>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </Border>
+            </Grid>
+            <ControlTemplate.Triggers>
+                <DataTrigger Binding="{Binding Data.ImageSource, Mode=OneWay}" Value="{x:Null}">
+                    <DataTrigger.Setters>
+                        <Setter TargetName="img" Property="Visibility" Value="Collapsed"/>
+                    </DataTrigger.Setters>
+                </DataTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="nodeMergeJoinTemplate2" TargetType="ContentControl">
+            <ControlTemplate.Resources>
+                <Storyboard x:Key="Storyboard_Process">
+                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="ellipse" RepeatBehavior="Forever">
+                        <LinearThicknessKeyFrame KeyTime="0:0:0">
+                            <LinearThicknessKeyFrame.Value>
+                                <Thickness Left="5" Right="5" Top="5" Bottom="5" />
+                            </LinearThicknessKeyFrame.Value>
+                        </LinearThicknessKeyFrame>
+                        <LinearThicknessKeyFrame KeyTime="0:0:5">
+                            <LinearThicknessKeyFrame.Value>
+                                <Thickness Left="0" Right="0" Top="0" Bottom="0" />
+                            </LinearThicknessKeyFrame.Value>
+                        </LinearThicknessKeyFrame>
+                    </ThicknessAnimationUsingKeyFrames>
+                </Storyboard>
+            </ControlTemplate.Resources>
+            <Grid  go:Node.PortId="port_image">
+                <Grid.ToolTip>
+                    <Grid Margin="21">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding Data.Key, Mode=OneWay}"/>
+                        <Grid Grid.Row="1" Height="1" Background="Gray"/>
+                        <TextBlock Grid.Row="2">
+                            <Run Text="Operation:"/>
+                            <Run Text="{Binding Data.Operation, Mode=OneWay}"/>
+                            <Run Text="{Binding Data.OperationData, Mode=OneWay}"/>
+                        </TextBlock>
+                        <TextBlock Grid.Row="3">
+                            <Run Text="Cost:"/>
+                            <Run Text="{Binding Data.Cost, Mode=OneWay}"/>
+                        </TextBlock>
+                    </Grid>
+                </Grid.ToolTip>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="{Binding Path=Data.Cost, Mode=OneWay}" Background="{Binding Data.CostColor, Mode=OneWay}" HorizontalAlignment="Center"/>
+                <Grid Grid.Row="1" Margin="6,0,6,12" >
+                    <Ellipse x:Name="circle" Stroke="Gray" StrokeThickness="1" Fill="White"/>
+                    <Ellipse x:Name="ellipse" Stroke="LightGray" StrokeThickness="0.5" Margin="5"  Fill="#FFFAC090"/>
+                    <TextBlock x:Name="txt" Text="MJ" FontSize="16" Margin="12,10,12,12"/>
+                </Grid>
+            </Grid>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.Setters>
+                        <Setter Property="Foreground" TargetName="txt" Value="blue"/>
+                        <Setter Property="Fill" TargetName="ellipse" Value="#FFF9E2CF"/>
+                    </Trigger.Setters>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="False">
+                    <Trigger.Setters>
+                        <Setter Property="Foreground" TargetName="txt" Value="#FF232323"/>
+                        <Setter Property="Fill" TargetName="ellipse" Value="#FFFAC090"/>
+                    </Trigger.Setters>
+                </Trigger>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard Storyboard="{StaticResource Storyboard_Process}"/>
+                </EventTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="nodeHashMatchTemplate2" TargetType="ContentControl">
+            <ControlTemplate.Resources>
+                <Storyboard x:Key="Storyboard_Process">
+                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="ellipse" RepeatBehavior="Forever">
+                        <LinearThicknessKeyFrame KeyTime="0:0:0">
+                            <LinearThicknessKeyFrame.Value>
+                                <Thickness Left="5" Right="5" Top="5" Bottom="5" />
+                            </LinearThicknessKeyFrame.Value>
+                        </LinearThicknessKeyFrame>
+                        <LinearThicknessKeyFrame KeyTime="0:0:5">
+                            <LinearThicknessKeyFrame.Value>
+                                <Thickness Left="0" Right="0" Top="0" Bottom="0" />
+                            </LinearThicknessKeyFrame.Value>
+                        </LinearThicknessKeyFrame>
+                    </ThicknessAnimationUsingKeyFrames>
+                </Storyboard>
+            </ControlTemplate.Resources>
+            <Grid go:Node.PortId="port_image">
+                <Grid.ToolTip>
+                    <Grid Margin="21">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding Data.Key, Mode=OneWay}"/>
+                        <Grid Grid.Row="1" Height="1" Background="Gray"/>
+                        <TextBlock Grid.Row="2">
+                            <Run Text="Operation:"/>
+                            <Run Text="{Binding Data.Operation, Mode=OneWay}"/>
+                            <Run Text="{Binding Data.OperationData, Mode=OneWay}"/>
+                        </TextBlock>
+                        <TextBlock Grid.Row="3">
+                            <Run Text="Cost:"/>
+                            <Run Text="{Binding Data.Cost, Mode=OneWay}"/>
+                        </TextBlock>
+                    </Grid>
+                </Grid.ToolTip>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="{Binding Path=Data.Cost, Mode=OneWay}" Background="{Binding Data.CostColor, Mode=OneWay}" HorizontalAlignment="Center"/>
+                <Grid Grid.Row="1"  Margin="6,0,6,12">
+                    <Ellipse x:Name="circle" Stroke="Gray" StrokeThickness="1" Fill="White"/>
+                    <Ellipse x:Name="ellipse" Stroke="LightGray" StrokeThickness="0.5" Margin="5" Fill="#FFD5F5AD"/>
+                    <TextBlock x:Name="txt" Text="HM" FontSize="16" Margin="9,10,9,12"/>
+                </Grid>
+            </Grid>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.Setters>
+                        <Setter Property="Foreground" TargetName="txt" Value="blue"/>
+                        <Setter Property="Fill" TargetName="ellipse" Value="#FFF2FDE5"/>
+                    </Trigger.Setters>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="False">
+                    <Trigger.Setters>
+                        <Setter Property="Foreground" TargetName="txt" Value="#FF232323"/>
+                        <Setter Property="Fill" TargetName="ellipse" Value="#FFD5F5AD"/>
+                    </Trigger.Setters>
+                </Trigger>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard Storyboard="{StaticResource Storyboard_Process}"/>
+                </EventTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <DataTemplate x:Key="OuterSelectionAdornmentTemplate">
+            <DataTemplate.Resources>
+                <Storyboard x:Key="Storyboard_MoveRectangle">
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="rectangle" RepeatBehavior="Forever">
+                        <LinearDoubleKeyFrame KeyTime="0:0:2" Value="-5"/>
+                    </DoubleAnimationUsingKeyFrames>
+                </Storyboard>
+            </DataTemplate.Resources>
+            <Grid go:Node.LocationElementName="spotPanel">
+                <Rectangle x:Name="rectangle" StrokeDashArray="3 2" StrokeThickness="4" Stroke="#FF3399FF"/>
+                <Grid Margin="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <!-- when in an Adornment, automatically sized to the AdornedElement -->
+                    <go:SpotPanel Grid.Row="1" Grid.Column="1" x:Name="spotPanel"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Grid>
+            </Grid>
+            <DataTemplate.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard Storyboard="{StaticResource Storyboard_MoveRectangle}"/>
+                </EventTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+
+        <DataTemplate x:Key="NodeTemplate2"><Border go:Part.SelectionAdorned="False" go:Part.SelectionAdornmentTemplate="{StaticResource OuterSelectionAdornmentTemplate}"
+                    MouseLeftButtonUp="nodeContent_MouseLeftButtonUp" MouseEnter="nodeContent_MouseEnter" MouseLeave="nodeContent_MouseLeave" Height="{StaticResource nodeHeight}">
+                <ContentControl VerticalAlignment="Center">
+                    <ContentControl.Style>
+                        <Style TargetType="ContentControl">
+                            <Setter Property="Template" Value="{StaticResource nodeNormalTemplate2}"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Data.OperationType, Mode=OneWay}" Value="Others">
+                                    <DataTrigger.Setters>
+                                        <Setter Property="Template" Value="{StaticResource nodeNormalTemplate2}"/>
+                                    </DataTrigger.Setters>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Data.OperationType, Mode=OneWay}" Value="TableAccess">
+                                    <DataTrigger.Setters>
+                                        <Setter Property="Template" Value="{StaticResource nodeTableAccessTemplate2}"/>
+                                    </DataTrigger.Setters>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Data.OperationType, Mode=OneWay}" Value="MergeJoin">
+                                    <DataTrigger.Setters>
+                                        <Setter Property="Template" Value="{StaticResource nodeMergeJoinTemplate2}"/>
+                                    </DataTrigger.Setters>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Data.OperationType, Mode=OneWay}" Value="HashMatch">
+                                    <DataTrigger.Setters>
+                                        <Setter Property="Template" Value="{StaticResource nodeHashMatchTemplate2}"/>
+                                    </DataTrigger.Setters>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ContentControl.Style>
+                </ContentControl>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Key="GroupTemplate6">
+            <Grid go:Part.SelectionAdorned="False"
+              go:Node.LocationElementName="myGroupPanel"
+              go:Group.IsSubGraphExpanded="False"
+              Height="{StaticResource nodeHeight}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" VerticalAlignment="Bottom" Text="{Binding Path=Data.Cost, Mode=OneWay}" Background="{Binding Data.CostColor, Mode=OneWay}" HorizontalAlignment="Center"/>
+                <Border Grid.Row="1" CornerRadius="5" BorderThickness="0" Background="Transparent" BorderBrush="{Binding Path=Data.Color}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0"   go:Node.PortId="port_image" Visibility="{Binding Group.IsExpandedSubGraph, Mode=OneWay, Converter={StaticResource bolToVisibleInvert}}">
+                            <ToggleButton Cursor="Hand"  IsChecked="{Binding Group.IsExpandedSubGraph, Mode=TwoWay}" go:Node.PortId="port_image">
+                                <ToggleButton.Template>
+                                    <ControlTemplate TargetType="ToggleButton">
+                                        <Grid>
+                                            <Border x:Name="border" VerticalAlignment="Center" BorderThickness="1" Margin="0,0,6,0">
+                                                <ItemsControl ItemsSource="{Binding Path=Data.ChildIconList, Mode=OneWay}">
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <StackPanel Orientation="Horizontal"/>
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Image Width="14" Height="14" Margin="3" Source="{Binding Path=., Converter={x:Static local:ImageSourceConverter.Instance}}"/>
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                </ItemsControl>
+                                            </Border>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Trigger.Setters>
+                                                    <Setter Property="BorderBrush" TargetName="border" Value="#FF21BB28"/>
+                                                </Trigger.Setters>
+                                            </Trigger>
+                                            <Trigger Property="IsMouseOver" Value="False">
+                                                <Trigger.Setters>
+                                                    <Setter Property="BorderBrush" TargetName="border" Value="LightGray"/>
+                                                </Trigger.Setters>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </ToggleButton.Template>
+                            </ToggleButton>
+                        </Grid>
+                        <Grid Grid.Row="1" Visibility="{Binding Group.IsExpandedSubGraph, Mode=OneWay, Converter={StaticResource boolToVisibleConver}}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <go:GroupPanel x:Name="myGroupPanel" Grid.Column="0"/>
+                            <ToggleButton Grid.Column="1" IsChecked="{Binding Group.IsExpandedSubGraph, Mode=TwoWay}" VerticalAlignment="Top"  Style="{StaticResource ExpanderLeftHeaderStyle}"/>
+                        </Grid>
+                    </Grid>
+                </Border>
+
+                <go:Group.Layout>
+                    <go:TreeLayout  Angle="0"
+                    Alignment="Start"
+                    TreeStyle="Layered"
+                    LayerSpacing="80"
+                    NodeSpacing="80"/>
+                </go:Group.Layout>
+            </Grid>
+        </DataTemplate>
+
+        <go:BooleanBrushConverter x:Key="theSelectedBrushConverter" TrueColor="LightBlue" FalseColor="Transparent"/>
+
+        <DataTemplate x:Key="nodeTemplate1">
+            <Border go:Part.SelectionAdorned="False" go:Part.SelectionAdornmentTemplate="{StaticResource OuterSelectionAdornmentTemplate}"
+                  go:Node.Location="{Binding Path=Data.Location, Mode=TwoWay}" CornerRadius="5"
+                  MouseLeftButtonUp="nodeContent_MouseLeftButtonUp" MouseEnter="nodeContent_MouseEnter" MouseLeave="nodeContent_MouseLeave">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="MouseActionGroup">
+                        <VisualState x:Name="MouseOverState">
+                            <Storyboard SpeedRatio="12">
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0" Value="#00FFFFFF"/>
+                                    <LinearColorKeyFrame KeyTime="0:0:1" Value="#FFF9FBFD"/>
+                                </ColorAnimationUsingKeyFrames>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0" Value="#00FFFFFF"/>
+                                    <LinearColorKeyFrame KeyTime="0:0:1" Value="#FFB8D6D7"/>
+                                </ColorAnimationUsingKeyFrames>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0" Value="1"/>
+                                    <LinearColorKeyFrame KeyTime="0:0:1" Value="1.03"/>
+                                </DoubleAnimationUsingKeyFrames>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0" Value="1"/>
+                                    <LinearColorKeyFrame KeyTime="0:0:1" Value="1.03"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="NormalState">
+                            <Storyboard SpeedRatio="12">
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0" Value="#00FFFFFF"/>
+                                </ColorAnimationUsingKeyFrames>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0" Value="#00FFFFFF"/>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="mousePressState">
+                            <Storyboard  RepeatBehavior="Forever" AutoReverse="True">
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0" Value="#FFF9FBFD">
+                                    </LinearColorKeyFrame>
+                                    <LinearColorKeyFrame KeyTime="0:0:1" Value="#FFC1DCFC">
+                                    </LinearColorKeyFrame>
+                                </ColorAnimationUsingKeyFrames>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" Storyboard.TargetName="nodeContent">
+                                    <LinearColorKeyFrame KeyTime="0" Value="#FFB8D6D7">
+                                    </LinearColorKeyFrame>
+                                    <LinearColorKeyFrame KeyTime="0:0:1" Value="#FF7DA2CE">
+                                    </LinearColorKeyFrame>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                    </VisualStateGroup>
+                    <VisualStateGroup x:Name="AnimationGroup">
+                        <VisualStateGroup.Transitions>
+                            <VisualTransition From="AnimationNodeLevelZero" GeneratedDuration="0:0:1"/>
+                            <VisualTransition From="AnimationNodeLevelOne" GeneratedDuration="0:0:1"/>
+                            <VisualTransition From="AnimationNodeLevelTwo" GeneratedDuration="0:0:1"/>
+                            <VisualTransition From="AnimationNodeLevelThree" GeneratedDuration="0:0:1"/>
+                            <VisualTransition From="AnimationNodeLevelFour" GeneratedDuration="0:0:1"/>
+                            <VisualTransition From="AnimationNodeLevelFive" GeneratedDuration="0:0:1"/>
+                        </VisualStateGroup.Transitions>
+                        <VisualState x:Name="AnimationNodeLevelZero">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="ellipse" SpeedRatio="3" RepeatBehavior="Forever">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationNodeLevelOne">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="ellipse" SpeedRatio="6" RepeatBehavior="Forever">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationNodeLevelTwo">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="ellipse" SpeedRatio="12" RepeatBehavior="Forever">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationNodeLevelThree">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="ellipse"  SpeedRatio="24" RepeatBehavior="Forever">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationNodeLevelFour">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="ellipse" SpeedRatio="48" RepeatBehavior="Forever">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationNodeLevelFive">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="ellipse" SpeedRatio="80" RepeatBehavior="Forever">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="NoAnimation"/>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+                <Border x:Name="nodeContent" BorderBrush="Transparent" CornerRadius="5" BorderThickness="1" Background="Transparent">
+                    <Border.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Border.RenderTransform>
+                    <Grid MinWidth="75">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding Path=Data.Cost, Mode=OneWay}" Background="{Binding Data.CostColor, Mode=OneWay}" HorizontalAlignment="Center"/>
+                        <Grid Grid.Row="1">
+                            <Border BorderBrush="Transparent" HorizontalAlignment="Center" go:Node.PortId="port_image">
+                                <Image Width="24" Height="24" Source="{Binding Data.ImageSource, Mode=OneWay}" Margin="9"/>
+                            </Border>
+                            <Grid x:Name="ellipseGrid" Visibility="Visible">
+                                <!--Animation-->
+                                <Ellipse x:Name="ellipse" Stroke="{Binding Path=Data.ImageBorderColor,Mode=OneWay}" StrokeThickness="3" StrokeDashArray="5" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Grid>
+                        <TextBlock Grid.Row="2" Text="{Binding Path=Data.Operation, Mode=OneWay}" FontSize="13" Background="{Binding Data.OperationColor, Mode=OneWay}" HorizontalAlignment="Center" />
+                        <TextBlock Grid.Row="3" Text="{Binding Path=Data.OperationData, Mode=OneWay}"  FontSize="13" HorizontalAlignment="Center" />
+                    </Grid>
+                </Border>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Key="linkTemplate1">
+            <go:LinkPanel go:Part.SelectionElementName="Path" go:Part.SelectionAdorned="True">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="AnimationGroup">
+                        <VisualState x:Name="AnimationLinkLevelZero">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="line" RepeatBehavior="Forever" SpeedRatio="2">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationLinkLevelOne">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="line" RepeatBehavior="Forever"  SpeedRatio="5">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationLinkLevelTwo">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="line" RepeatBehavior="Forever"  SpeedRatio="10">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationLinkLevelThree">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="line" RepeatBehavior="Forever"  SpeedRatio="20">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationLinkLevelFour">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="line" RepeatBehavior="Forever" SpeedRatio="30">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="AnimationLinkLevelFive">
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeDashOffset)" Storyboard.TargetName="line" RepeatBehavior="Forever" SpeedRatio="50">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:3" Value="6"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:5" Value="10"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="NoAnimation"/>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+                <go:Link.Route>
+                    <go:Route Routing="Orthogonal" Curve="None" Corner="5" />
+                </go:Link.Route>
+                <go:LinkShape x:Name="selectPath" go:LinkPanel.IsLinkShape="True" Panel.ZIndex="-1" StrokeThickness="{Binding Data.SelectedPathSize}" Stroke="{Binding Data.SelectPathColor}"/>
+                <go:LinkShape x:Name="Path" go:LinkPanel.IsLinkShape="True" Panel.ZIndex="1" Stroke="Transparent" StrokeThickness="20">
+                    <go:LinkShape.ToolTip>
+                        <Grid Margin="21">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="{Binding Data.DataSize, Mode=OneWay}" Grid.Row="0"/>
+                            <TextBlock Text="{Binding Data.RowSize, Mode=OneWay}" Grid.Row="1"/>
+                        </Grid>
+                    </go:LinkShape.ToolTip>
+                </go:LinkShape>
+                <go:LinkShape x:Name="line" go:LinkPanel.IsLinkShape="True"  Panel.ZIndex="1" StrokeDashArray="8, 2" Stroke="{Binding Data.LinkColor}" StrokeThickness="{Binding Data.LineSize, Mode=OneWay}"/>
+                <Polygon Stroke="{Binding Data.LinkBorderColor}" Fill="{Binding Data.LinkBorderColor}" StrokeThickness="3" Points="7 0 0 3.5 7 7"
+                        go:LinkPanel.Alignment="0.1 0.4" go:LinkPanel.Index="0" Panel.ZIndex="2"
+                        go:LinkPanel.Orientation="Along" />
+
+                <TextBlock Text="{Binding Data.Text, Mode=OneWay}" go:LinkPanel.Offset="-30 -10" go:LinkPanel.Index="-1" go:LinkPanel.Orientation="Upright"/>
+
+            </go:LinkPanel>
+        </DataTemplate>
+
+        <DataTemplate x:Key="groupHeader">
+            <TextBlock Text="Overview" Cursor="SizeAll" Focusable="False"/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="320"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="gridContent">
+            <local:DragCanvas x:Name="canvasContent" Grid.Column="0">
+                <go:Diagram x:Name="myDiagram"  Padding="30" SelectedNode="{Binding SelectedNode, Mode=OneWayToSource}"
+                        SelectedLink="{Binding SelectedLink,Mode=OneWayToSource}"
+                        NodeTemplate="{StaticResource NodeTemplate2}"
+                        GroupTemplate="{StaticResource GroupTemplate6}"
+                            
+                        LinkTemplate="{StaticResource linkTemplate1}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="{Binding ActualWidth, ElementName=gridContent, Mode=OneWay}" Height="{Binding ActualHeight, ElementName=gridContent, Mode=OneWay}">
+                    <go:Diagram.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="+" Command="IncreaseZoom" CommandTarget="{Binding ElementName=myDiagram}"/>
+                            <MenuItem Header="-" Command="DecreaseZoom" CommandTarget="{Binding ElementName=myDiagram}"/>
+                            <Separator/>
+                            <MenuItem Header="Save as Image" Click="MenuItem_Click"/>
+                        </ContextMenu>
+                    </go:Diagram.ContextMenu>
+                    <go:Diagram.LayoutManager>
+                        <go:LayoutManager AnimationTime="200" />
+                    </go:Diagram.LayoutManager>
+                    <go:Diagram.DefaultTool>
+                        <go:ToolManager WheelBehavior="ControlZooms"/>
+                    </go:Diagram.DefaultTool>
+                    <go:Diagram.Template>
+                        <ControlTemplate TargetType="go:Diagram">
+                            <Border x:Name="Border"
+                                    Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}">
+                                <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                          VerticalScrollBarVisibility="Auto"
+                          CanContentScroll="True">
+                                    <local:VirtualizingDiagramPanel x:Name="Panel"
+                         Stretch="{TemplateBinding Stretch}"
+                         Padding="{TemplateBinding Padding}"
+                         HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                         VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                </ScrollViewer>
+                            </Border>
+                        </ControlTemplate>
+                    </go:Diagram.Template>
+                    <go:Diagram.Layout>
+                        <go:TreeLayout
+                            Angle="0"
+                            Alignment="Start"
+                            TreeStyle="Layered"                            
+                            LayerSpacing="80"
+                            NodeSpacing="0"
+                            Conditions="Standard GroupSizeChanged"/>
+                    </go:Diagram.Layout>
+                </go:Diagram>
+                <GroupBox  Background="Transparent" HeaderTemplate="{StaticResource groupHeader}" Canvas.Left="10" Canvas.Top="615" local:DragCanvas.CanBeDragged="True" >
+                    <go:Overview x:Name="myOverview"  Height="160" Width="250"  Observed="{Binding ElementName=myDiagram}"/>                    
+                </GroupBox>
+
+                <Border  Canvas.Left="10" Canvas.Top="700" Background="YellowGreen" local:DragCanvas.CanBeDragged="True">
+                    <Button Content="drag" local:DragCanvas.CanBeDragged="False"  Click="Button_Click" Margin="10" MouseLeftButtonDown="Button_MouseLeftButtonDown">
+                    </Button>
+                </Border>
+
+                <Border x:Name="moveBorder" local:DragCanvas.CanBeDragged="True" Opacity="{StaticResource OpacityValue}" Canvas.Right="25" Canvas.Top="12" BorderBrush="Black" BorderThickness="1" Cursor="SizeAll">
+                    <Border.Triggers>
+                        <EventTrigger RoutedEvent="Mouse.MouseEnter">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard SpeedRatio="8">
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="moveBorder">
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0" Value="{StaticResource OpacityValue}"/>
+                                            <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="Mouse.MouseLeave">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard SpeedRatio="8">
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="moveBorder">
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0" Value="1"/>
+                                            <EasingDoubleKeyFrame KeyTime="0:0:1" Value="{StaticResource OpacityValue}"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                    </Border.Triggers>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Current View:" VerticalContentAlignment="Center" Padding="6,0,6,0"/>
+                        <ComboBox Width="280" Cursor="Arrow" SelectedIndex="0">
+                            <ComboBoxItem Content="CPU Cost"/>
+                            <ComboBoxItem Content="Data Size"/>
+                            <ComboBoxItem Content="Test1"/>
+                            <ComboBoxItem Content="Test2"/>
+                            <ComboBoxItem Content="Test3"/>
+                            <ComboBoxItem Content="Test4"/>
+                        </ComboBox>
+                        <Label VerticalContentAlignment="Center" Padding="0,0,6,0"/>
+                        <!--empty space-->
+                        <Button Cursor="Arrow">
+                            <Image Source="Images/qso_ZoomIn.png"/>
+                        </Button>
+                        <Button Cursor="Arrow">
+                            <Image Source="Images/qso_ZoomOut.png"/>
+                        </Button>
+                    </StackPanel>
+                </Border>
+                <StackPanel x:Name="Unvolidate" Orientation="Vertical" Canvas.Right="25" Canvas.Bottom="25" Opacity="{StaticResource OpacityValue}">
+                    <StackPanel.Triggers>
+                        <EventTrigger RoutedEvent="Mouse.MouseEnter">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard SpeedRatio="8">
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Unvolidate">
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0" Value="{StaticResource OpacityValue}"/>
+                                            <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="Mouse.MouseLeave">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard SpeedRatio="8">
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Unvolidate">
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0" Value="1"/>
+                                            <EasingDoubleKeyFrame KeyTime="0:0:1" Value="{StaticResource OpacityValue}"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                    </StackPanel.Triggers>
+                    <Button>
+                        <Image Source="Images/qso_ZoomIn.png"/>
+                    </Button>
+                    <Button>
+                        <Image Source="Images/qso_ZoomOut.png"/>
+                    </Button>
+                    <ToggleButton x:Name="btnViewPanel">
+                        <Image>
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Source" Value="Images/SimpleBlack/qso_left_x2.png"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsChecked, ElementName=btnViewPanel}" Value="True">
+                                            <Setter Property="Source" Value="Images/qso_right_x2.png"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsChecked, ElementName=btnViewPanel}" Value="False">
+                                            <Setter Property="Source" Value="Images/SimpleBlack/qso_left_x2.png"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                    </ToggleButton>
+                </StackPanel>
+            </local:DragCanvas>
+        </Grid>
+        <TabControl Grid.Column="1" >
+            <TabItem Header="General">
+                <StackPanel>
+                    <Button Content="Load Data" x:Name="btnLoad" Click="btnLoad_Click"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Advanced">
+                <StackPanel>
+                    <GroupBox Header="Generate">
+                        <StackPanel>
+                            <TextBlock>
+                            <Label Content="Current Selected Node:"/>
+                            <Label Content="{Binding SelectedData}" FontWeight="Bold"/>
+                            </TextBlock>
+                            <TextBlock >
+                            <Label Content="Current Selected Link:"/>
+                            <Label Content="{Binding SelectedLinkData}" FontWeight="Bold"/>
+                            </TextBlock>
+                            <StackPanel Orientation="Horizontal" >
+                                <Label Content="High light Patch Color:"/>
+                                <dxe:PopupColorEdit x:Name="pathColorEdit"  Color="{Binding HighlightPathColor,Mode=TwoWay}" Margin="20,0,0,0" ColorChanged="pathColorEdit_ColorChanged" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Selected Path Size:" Margin="0,12,0,12"/>
+                                <dxe:SpinEdit x:Name="pathSize" Margin="40,12,0,12" MinValue="0" IsFloatValue="False" Width="124" Value="20" EditValueChanged="pathSize_EditValueChanged"/>
+                            </StackPanel>
+                            <dxe:CheckEdit x:Name="chkEnableHighlight" Content="Enabled highlight path"  IsChecked="True" Margin="3" EditValueChanged="chkEnableHighlight_EditValueChanged"/>
+                            <dxe:CheckEdit x:Name="chkOnlyLink" Content="Only highlight on Line" IsChecked="True"  Margin="3"/>
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox x:Name="nodeGroup"  Header="Selected Node Style" Margin="0,6,0,0" Visibility="Collapsed">
+                        <GroupBox.Style>
+                            <Style TargetType="GroupBox">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding SelectedData}" Value="{x:Null}">
+                                        <Setter  Property="IsEnabled" Value="False"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </GroupBox.Style>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Grid.Column="0" Content="Animation Speed:"/>
+                            <dxe:TrackBarEdit x:Name="trackbarNode" Grid.Row="0" Grid.Column="1" Maximum="100" Minimum="0" LargeStep="20"  Value="{Binding SelectedData.ImageBorderAnimationSpeed,Mode=OneWay}" SmallStep="20" TickPlacement="Both" EditValueChanged="trackbarNode_EditValueChanged"/>
+                            <Label Grid.Row="1" Grid.Column="0" Content="Node Stroke color:" Margin="0,12,0,0"/>
+                            <dxe:PopupColorEdit Grid.Row="1" Grid.Column="1" Margin="0,12,0,0"  Color="{Binding SelectedData.ImageBorderColor,Mode=TwoWay}" />
+                            <Label Grid.Row="2" Grid.Column="0" Content="Is Animaiton:" Margin="0,12,0,0"/>
+                            <dxe:CheckEdit Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Margin="0,12,0,0" IsChecked="{Binding SelectedData.IsAnimation}"/>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox x:Name="linkGroup"  Header="Selected Link Style" Margin="0,6,0,0">
+                        <GroupBox.Style>
+                            <Style TargetType="GroupBox">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding SelectedLinkData}" Value="{x:Null}">
+                                        <Setter  Property="IsEnabled" Value="False"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </GroupBox.Style>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Grid.Column="0" Content="Animation Speed:"/>
+                            <dxe:TrackBarEdit x:Name="trackBarLink" Grid.Row="0" Grid.Column="1" Maximum="100" Minimum="0" LargeStep="20" Value="{Binding SelectedLinkData.ImageBorderAnimationSpeed,Mode=OneWay}" SmallStep="20" TickPlacement="Both" EditValueChanged="trackBarLink_EditValueChanged"/>
+                            <Label Grid.Row="1" Grid.Column="0" Content="Link color:" Margin="0,12,0,0"/>
+                            <dxe:PopupColorEdit Grid.Row="1" Grid.Column="1" Margin="0,12,0,0" Color="{Binding SelectedLinkData.LinkBorderColor,Mode=TwoWay}" />
+                            <Label Grid.Row="2" Visibility="Collapsed" Grid.Column="0" Content="Link Backgound color:" Margin="0,12,0,0"/>
+                            <dxe:PopupColorEdit Visibility="Collapsed" Grid.Row="2" Grid.Column="1" Margin="0,12,0,0" Color="{Binding SelectedLinkData.LinkColor,Mode= TwoWay}" />
+                            <Label Grid.Row="3" Grid.Column="0"  Margin="0,12,0,0" Content="Link Size:"/>
+                            <dxe:SpinEdit Grid.Row="3" Grid.Column="1" IsFloatValue="False"  Margin="0,12,0,0" Value="{Binding SelectedLinkData.LineSize,Mode=TwoWay}" />
+                            <Label Visibility="Collapsed" Grid.Row="4" Grid.Column="0"  Margin="0,12,0,0" Content="Link Backgound Size:"/>
+                            <dxe:SpinEdit Visibility="Collapsed" Grid.Row="4" Grid.Column="1" IsFloatValue="False"  Margin="0,12,0,0" Value="{Binding SelectedLinkData.BorderSize,Mode=TwoWay}" />
+                            <Label Visibility="Collapsed" Grid.Row="5" Grid.Column="0" Content="Select Path color:" Margin="0,12,0,0"/>
+                            <dxe:PopupColorEdit Visibility="Collapsed" Grid.Row="5" Grid.Column="1" Margin="0,12,0,0" Color="{Binding SelectedLinkData.SelectPathColor,Mode= TwoWay}" />
+                            <Label Visibility="Collapsed" Grid.Row="6" Grid.Column="0" Content="Is Animaiton:" Margin="0,12,0,0"/>
+                            <dxe:CheckEdit Visibility="Collapsed" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Center" Margin="0,12,0,0" IsChecked="{Binding SelectedLinkData.IsAnimation}"/>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Animation Mode"  Margin="0,6,0,6">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Label Content="All Animation:" Grid.Column="0" Grid.Row="0"/>
+                            <RadioButton Grid.Column="1" Grid.Row="0" x:Name="radio_AllAnimation"  IsChecked="False" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="radio_AllAnimation_Checked" />
+                            <Label Content="Only Visible Animation:" Grid.Column="0" Grid.Row="1"/>
+                            <RadioButton  Grid.Row="1" Grid.Column="1" x:Name="radio_OnlyVisibleAnimaiton" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="radio_OnlyVisibleAnimaiton_Checked" />
+                            <Label Content="All UnAnimation:" Grid.Column="0" Grid.Row="2"/>
+                            <RadioButton  Grid.Column="1" Grid.Row="2" x:Name="radio_All_UnAnimation" IsChecked="False"  HorizontalAlignment="Center" VerticalAlignment="Center" Checked="radio_All_UnAnimation_Checked"/>
+                            <Label Content="Only Path Animation:" Grid.Column="0" Grid.Row="3"/>
+                            <RadioButton x:Name="radioOnlyPathAnimation"  Grid.Column="1" Grid.Row="3" IsChecked="False" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="radioOnlyPathAnimation_Checked"/>
+                        </Grid>
+                    </GroupBox>
+
+                    <!--<Grid Margin="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Total Node for Test:" Grid.Column="0"/>
+                        <TextBox x:Name="txtNodeNum" Grid.Column="1" Text="20"/>
+                    </Grid>
+                    <Button Margin="0,6,0,6" Content="Load Test Data" Click="LoadData_Button_Click"/>-->
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+
+</Window>
+

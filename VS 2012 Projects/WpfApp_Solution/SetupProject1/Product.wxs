@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
+  <Product Id="EB098F04-D2FE-4A68-9B5C-DFB6D804BF6A" Name="WpfApp" Language="1033" Version="1.0.0.1" Manufacturer="Peter Qin" UpgradeCode="73FD0013-33A6-4BAD-A7DD-8FAD4A10F1A3">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate EmbedCab="yes"/>
+
+    <Feature Id="ProductFeature" Title="WpfApp" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+      <ComponentGroupRef Id="StartMenuComponents"/>
+      <ComponentGroupRef Id="DesktopComponents"/>
+    </Feature>
+
+    <PropertyRef Id="NETFRAMEWORK40CLIENT"/>
+    <Condition Message="This application requires .NET Framework 4.0 Client Profile. Please install the .NET Framework then run this installer again.">
+      <![CDATA[Installed OR NETFRAMEWORK40CLIENT]]>
+    </Condition>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <UIRef Id="WixUI_InstallDir"/>
+    <UI>
+      <Publish Dialog="ExitDialog" Control="Finish" Event="DoAction" Value="LaunchApplication">WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 and NOT Installed</Publish>
+    </UI>
+    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="Launch WpfApp" />
+    <Property Id="WixShellExecTarget" Value="[INSTALLFOLDER]WpfApp.exe" />
+    <CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
+    <Icon Id="IClock.ico" SourceFile="Resources\IClock.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="IClock.ico"/>
+
+    <WixVariable Id="WixUIBannerBmp" Value="Resources/Banner.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Resources/Dialog.bmp"/>
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="WpfApp" />
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="StartMenuFolderRoot" Name="WpfApp"/>
+      </Directory>
+      <Directory Id="DesktopFolder"/>
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+      <!-- <Component Id="ProductComponent"> -->
+      <!-- TODO: Insert files, registry keys, and other resources here. -->
+      <!-- </Component> -->
+
+      <Component Id="WpfApp.exe" Guid="B3D4719D-0166-473F-BC6D-D94B33AF5F5B">
+        <File Id="WpfApp.exe" Source="$(var.WpfApp.TargetDir)\WpfApp.exe" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="Readme.txt" Guid="17BCE7CB-C384-469E-B859-9B64EBCEA143">
+        <File Id="Readme.txt" Source="C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WpfApp_Solution\WpfApp\Readme.txt" KeyPath="yes"/>
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="StartMenuComponents" Directory="StartMenuFolderRoot">
+      <Component Id="WpfAppStartMenuShortcutComponent" Guid="5ACF2574-9D60-4CA0-84F4-553831BA19A8">
+        <Shortcut Id="WpfAppStartMenuShortcut" Name="WpfApp" Description="Launch WpfApp Now" Target="[INSTALLFOLDER]WpfApp.exe" WorkingDirectory="INSTALLFOLDER"/>
+        <Shortcut Id="ReadmeStartMenuShortcut" Name="Readme" Description="About WpfApp" Target="[INSTALLFOLDER]Readme.txt" WorkingDirectory="INSTALLFOLDER"/>
+        <Shortcut Id="UninstallProduct" Name="Uninstall WpfApp" Description="Uninstalls WpfApp Now" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]"/>
+        <RemoveFolder Id="StartMenuFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\Peter\WpfApp" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="DesktopComponents" Directory="DesktopFolder">
+      <Component Id="WpfDesktopShortcutComponent" Guid="D8D77A90-4430-4F5F-83ED-4826AD3F47E2">
+        <Shortcut Id="WpfAppDesktopShortcut" Name="WpfApp" Description="Launch WpfApp Now" Target="[INSTALLFOLDER]WpfApp.exe" WorkingDirectory="INSTALLFOLDER"/>
+        <RemoveFolder Id="DesktopFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\Peter\WpfApp" Name="DesktopShortcut" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+</Wix>

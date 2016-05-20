@@ -1,0 +1,6 @@
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\JenkinsSalveService_Solution\JenkinsSalveService\bin\Debug\JenkinsSalveService.exe
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\JenkinsSalveService_Solution\JenkinsSalveService\bin\Debug\JenkinsSalveService.pdb
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\JenkinsSalveService_Solution\JenkinsSalveService\obj\Debug\JenkinsSalveService.exe
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\JenkinsSalveService_Solution\JenkinsSalveService\obj\Debug\JenkinsSalveService.pdb
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\JenkinsSalveService_Solution\JenkinsSalveService\obj\Debug\JenkinsSalveService.ProjectInstaller.resources
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\JenkinsSalveService_Solution\JenkinsSalveService\obj\Debug\JenkinsSalveService.csproj.GenerateResource.Cache

@@ -1,0 +1,8 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindRefAssembly\FindAllDXAssembly\bin\x86\Release\FindRefAssembly.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindRefAssembly\FindAllDXAssembly\bin\x86\Release\FindRefAssembly.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindRefAssembly\FindAllDXAssembly\obj\x86\Release\FindRefAssembly.frmRefAssembly.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindRefAssembly\FindAllDXAssembly\obj\x86\Release\FindRefAssembly.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindRefAssembly\FindAllDXAssembly\obj\x86\Release\FindRefAssembly.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindRefAssembly\FindAllDXAssembly\obj\x86\Release\FindRefAssembly.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindRefAssembly\FindAllDXAssembly\obj\x86\Release\FindRefAssembly.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\FindRefAssembly\FindAllDXAssembly\obj\x86\Release\FindRefAssembly.csprojResolveAssemblyReference.cache

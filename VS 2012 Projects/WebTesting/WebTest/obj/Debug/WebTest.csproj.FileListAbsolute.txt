@@ -1,0 +1,12 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\bin\Debug\WebTest.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\bin\Debug\WebTest.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\WebTest.csprojResolveAssemblyReference.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\MainWindow.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\MainWindow.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\App.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\WebTest_MarkupCompile.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\WebTest.g.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\WebTest.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\WebTest.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\WebTest.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\WebTesting\WebTest\obj\Debug\WebTest.pdb

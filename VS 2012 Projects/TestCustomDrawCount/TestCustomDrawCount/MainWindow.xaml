@@ -1,0 +1,29 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" x:Class="TestCustomDrawCount.MainWindow"
+        Title="MainWindow" Height="500" Width="700">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Load" x:Name="btnLoad" Click="btnLoad_Click"/>
+            <Button Content="Change One Value" x:Name="btnChangeValue" Click="btnChangeValue_Click"/>
+            <Button Content="Show Custom Draw Count" x:Name="btnShowCount" Click="btnShowCount_Click"/>
+            <Button Content="Clear Count" x:Name="btnClear" Click="btnClear_Click"/>
+        </StackPanel>
+        <dxg:GridControl Grid.Row="1" ItemsSource="{Binding TestDataSource}">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="ID"/>
+                <dxg:GridColumn FieldName="Value"/>
+                <dxg:GridColumn FieldName="SeriesID"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView ShowTotalSummary="True"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+
+    </Grid>
+</Window>
